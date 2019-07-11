@@ -41,7 +41,7 @@ var obj = this
 this.Draw = function(){  
 var s = this.Paper;
 //create frame
-var g1 = s.group(); // stores background, frame and other info
+var g1 = s.g(); // stores background, frame and other info
 var g2 = s.group().attr({id: 'rack'}); // stores rack
 var g3 = s.group().attr({id: 'rack rectangles'}); // stores rack rectangles
 var g4 = s.group(); //stores patchcords
