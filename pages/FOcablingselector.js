@@ -641,9 +641,10 @@ function drawTextIcon3(p,arr,W,H,clickCallback){
        //  let title = Snap.parse('<title>Side A: '+laneStr[0]+', side B: '+ laneStr[1]+ '</title>') //tooltip when the cursor is over the icon
        // //select what physical interface is
        //  icon_gr.append(title)
+	  let parsedText = arr[i];
         icon_gr
           .transform("translate("+(m+i*(iW+m))+","+(H-iH-m)+")")
-          .click(function () {clickCallback(arr[i])});
+          .click(function (event) {clickCallback(parsedText)});
         group.append(icon_gr);
         };
   return group
