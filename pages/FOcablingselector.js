@@ -287,23 +287,24 @@ this.ShowTrSelector = function(sideA){
        };                                  
         //when user clicks on icon - then the shape is selected and the FOselector re-draws
         //TODO add some animation effects here
-        selTr.click(function (event,i){
-	console.log (i)
+	      let trNumber=i;
+        selTr.click(function (event,trNumber){
+	
           if(sideA=="none"){
-            let newTr = new Transceiver(i);
+            let newTr = new Transceiver(trNumber);
             newTr.Quantity=trQuantity[0];
             newTr.Side="A";
             obj.Selected.sideA = newTr
             obj.CurrStep++;
           } else {
-            let rowNumber = vLookup(trTeArr[i],obj.Types.Technology);
-            if(rowNumber==null){console.log("The thansceiver "+trTeArr[i]+" cannot be found in the list"); obj.CurrStep=0; obj.Draw(); return null}
+            let rowNumber = vLookup(trTeArr[trNumber],obj.Types.Technology);
+            if(rowNumber==null){console.log("The thansceiver "+trTeArr[trNumber]+" cannot be found in the list"); obj.CurrStep=0; obj.Draw(); return null}
             let newTr = new Transceiver(rowNumber); 
-            newTr.Quantity=trQuantity[i];
+            newTr.Quantity=trQuantity[trNumber];
             newTr.Side="B";
             obj.Selected.sideB = newTr;
             obj.CurrStep++;
-            obj.PolarityS = trPoArr[i];
+            obj.PolarityS = trPoArr[trNumber];
           }
         obj.CurrStep++;
         obj.Draw();
