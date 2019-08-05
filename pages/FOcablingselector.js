@@ -259,7 +259,7 @@ this.ShowTrSelector = function(sideA){
     let selC = selW.g().attr({id:"showTrSelectorContent"})
   //When side A is clicked
       // creates a shape of every transceiver
-      for(let i=0;i<trTeArr.length;i++){
+      for(var i=0;i<trTeArr.length;i++){
         //x and y coordinate of shapes, tS - text scale
         let tS=0.8;
         let xx=pX+2*pG+((i % qC)*(tW+pG));
