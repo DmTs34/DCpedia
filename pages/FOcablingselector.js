@@ -416,7 +416,9 @@ function MergeAndSplit(obj){
   }
   //last element is added without semicolon
   arr=arr+obj[obj.length-1];
-  return arr.split(";").filter(function (v, i, a) {a.indexOf(v) === i}); 
+   let retArr = arr.split(";").filter((v, i, a) => a.indexOf(v) === i);
+console.log (retArr);
+  return retArr;
 }
 
 //function that reverses the array based on polarity
