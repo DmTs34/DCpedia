@@ -259,35 +259,35 @@ this.ShowTrSelector = function(sideA){
     let selC = selW.g().attr({id:"showTrSelectorContent"})
   //When side A is clicked
       // creates a shape of every transceiver
-      for(var i=0;i<trTeArr.length;i++){
+      for(var iii=0;iii<trTeArr.length;iii++){
         //x and y coordinate of shapes, tS - text scale
         let tS=0.8;
-        let xx=pX+2*pG+((i % qC)*(tW+pG));
-        let yy=pY+2*pG+(i-(i%qC))/qC*(tW+pG);
+        let xx=pX+2*pG+((iii % qC)*(tW+pG));
+        let yy=pY+2*pG+(iii-(iii%qC))/qC*(tW+pG);
         // icon - group of some shapes;
-        let selTr = selC.group().attr({id:"icon"+i, transform:"translate("+xx+","+yy+ ")",class:"hover"});
+        let selTr = selC.group().attr({id:"icon"+iii, transform:"translate("+xx+","+yy+ ")",class:"hover"});
         //rectangle - border
         selTr.rect(5,5,tW,tW,5).attr({class:"st7",class:"trIcon"});
         //text - heading of the transceiver
-        selTr.text(10,20,trTeArr[i]).attr({class:"trText",transform:"scale("+tS+")"});
-        let title = Snap.parse('<title>Pick up '+ trTeArr[i] +' transceiver</title>') //tooltip when the cursor is over the icon
+        selTr.text(10,20,trTeArr[iii]).attr({class:"trText",transform:"scale("+tS+")"});
+        let title = Snap.parse('<title>Pick up '+ trTeArr[iii] +' transceiver</title>') //tooltip when the cursor is over the icon
        //select what physical interface is
-        switch(trReArr[i].substr(0,2)){ 
+        switch(trReArr[iii].substr(0,2)){ 
           case "LC":
            selTr
-             .append(Duplex(paper,20,25,trReArr[i],"",tW/127*.5,1,1).obj)
+             .append(Duplex(paper,20,25,trReArr[iii],"",tW/127*.5,1,1).obj)
              .append(title)
          break;
          case "MP":
            selTr
-              .append(MPO(paper,18,18,"","A",trReArr[i],tW/192*0.9,1).obj)
+              .append(MPO(paper,18,18,"","A",trReArr[iii],tW/192*0.9,1).obj)
               .append(title)
          break;
             selTr.appendTo(selC)
        };                                  
         //when user clicks on icon - then the shape is selected and the FOselector re-draws
         //TODO add some animation effects here
-	      let trNumber=i;
+	      let trNumber=iii;
         selTr.click(function (event,trNumber){
 	
           if(sideA=="none"){
