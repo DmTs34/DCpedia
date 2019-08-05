@@ -417,7 +417,7 @@ function MergeAndSplit(obj){
   //last element is added without semicolon
   arr=arr+obj[obj.length-1];
    let retArr = arr.split(";").filter((v, i, a) => a.indexOf(v) === i);
-console.log (retArr);
+//console.log (retArr);
   return retArr;
 }
 
