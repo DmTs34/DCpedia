@@ -330,7 +330,8 @@ function vLookup(a,b){for(var i=0;i<(b.length);i++){if (a==b[i]) {return i}}}
 function DeleteById(id){
 	if(id!=""){
 let x = document.getElementById(id);
-	if(x!=null){x.remove()}
+	//if(x!=null){x.remove()}- was replaced by
+	if(x!=null){x.parentNode.removeChild(x);}
 } 
 }	
 
