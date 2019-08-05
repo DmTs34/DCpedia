@@ -419,7 +419,9 @@ function MergeAndSplit(obj){
   //last element is added without semicolon
   arr=arr+obj[obj.length-1];
    let retArr = [];
-   retArr = arr.split(";").filter(function (v, i, a) { a.indexOf(v) === i});
+    retArr = arr.split(";").filter( function (value, index, self) { 
+    return self.indexOf(value) === index;
+});
 console.log (retArr);
   return retArr;
 }
