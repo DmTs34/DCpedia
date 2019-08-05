@@ -287,7 +287,7 @@ this.ShowTrSelector = function(sideA){
        };                                  
         //when user clicks on icon - then the shape is selected and the FOselector re-draws
         //TODO add some animation effects here
-        selTr.click(function (event){
+        selTr.click(function (event,i){
           if(sideA=="none"){
             let newTr = new Transceiver(i);
             newTr.Quantity=trQuantity[0];
