@@ -1,1 +1,217 @@
+<html>
+   <style>
+    html, body { margin:0; padding:0; overflow:hidden;background-color:#cbdbe9 }
+svg { position:fixed; top:0; left:0; height:100%; width:100%}
+    .st1 {fill:#B71C1C;stroke:#880E4F;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st2 {
+      fill:#cbdbe9
+}
+		.st3 {
+      fill:#cbdbe9;
+      stroke:#005095;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      stroke-width:0.5
+}
+		.st4 {
+      fill:#ffffff;
+      font-family:Calibri;
+      font-size:1.00001em
+}
+		.st5 {
+      fill:#005095;
+      stroke:#000000;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      stroke-width:0.05;
+      opacity:0.9
+}
+		.st6 {
+      fill:#d8d8d8;
+      stroke:#000000;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      stroke-width:0.05
+}
+		.st7 {
+      fill:#d8d8d8;
+      stroke:none;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      stroke-width:0.05
+}
+		.st8
+{
+  fill:#000000;
+  stroke:#7f7f7f;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width:0.05}
+		.st9 {
+      fill:#3f3f3f;
+      stroke:#000000;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      stroke-width:0.05
+}
+		.st10 {
+      fill:#d8d8d8;
+      stroke:#7f7f7f;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      stroke-width:0.05
+}
+		.st11 {
+      fill:#000000;
+      stroke:none;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      stroke-width:0.05
+}
+.st12 {
+  fill:#595959;
+  stroke:none;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width:0.05}
+.st13 {fill:#a5a5a5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.05}
+.st14 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+.st15 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 
+.Legend1 {
+  font:30px serif; 
+  fill: #005095;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  font-weight: normal;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.Legend2 {
+  font:20px serif;
+  fill: black;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.trText {
+  font:10px serif;
+  fill: black;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hover {
+  cursor:pointer;
+}
+.trIcon {
+  cursor:pointer;
+  fill:#d8d8d8;
+  stroke: #5D4037;
+  stroke-width:2px;
+  transition: stroke 0.5s; /* Animation */
+}
+.trIcon:hover {
+  stroke: #880E4F;
+}
+.cablingIcon {
+  cursor:pointer;
+  transition: stroke-width 0.5s; /* Animation */
+  fill:#cbdbe9;
+  stroke:#005095;
+  stroke-width:0.5
+}
+.cablingIcon-text {
+  font:14px serif;
+  fill: black;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  stroke:'none';
+  stroke-width:0;
+    pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cablingIcon:hover {
+  stroke-width:4
+}
+
+
+.selected {stroke:#880E4F;
+          cursor:pointer;
+          stroke-width:3;
+          fill:#880E4F}
+
+/* TRANSCEIVERS */
+.transceiver-st2 {
+  fill: #1A1A1A;
+  stroke: #FFFFFF;
+  stroke-width: 0.5;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  opacity:0.9
+}
+
+.transceiver-st3 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #3F3F3F;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10;
+  opacity:0.9
+}
+
+.transceiver-st4 {
+  fill: #666666;
+  stroke: #FFFFFF;
+  stroke-width: 0.5;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  opacity:0.9
+}
+
+.transceiver-st5 {
+  fill: #4D4D4D;
+  stroke: #FFFFFF;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  opacity:0.9
+}
+
+.transceiver-transText {
+  fill: #ffffff;
+  stroke: none;
+  stroke-width: 0;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+  </style>
+<body>
+<div id="App" class="App">  
+  <svg id="Selector" viewBox="0 0 900 600">
+  </svg>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg.js"></script>
+<script src="transceiversmartshape.js"></script>
+<script src="FOcablingselector.js"></script>
+</body>
+</html>
