@@ -101,7 +101,7 @@ obj.DrawTransceiver(main_body,this.Transceiver,body_x,body_y,body_width,body_hei
   
 }
 //draws the transceiver or group of transceivers
-this.DrawTransceiver= (obj,transceiver,x,y,w,h,side) => {
+this.DrawTransceiver = function (obj,transceiver,x,y,w,h,side) {
   let group = obj.group().attr({id:"FOTSS_bod_gro_"+side});
   let l,r,t; (side=="A")?(l=1):(l=0);(side=="A")?(r=0):(r=1);(side=="A")?(t=-1):(t=1);
   let q=transceiver.Quantity;  
@@ -138,7 +138,7 @@ switch(transceiver.ConnectorType.substr(0,2)){
 
   group.attr({ transform: "translate("+x+","+y+")"})
 }
-this.DrawLegend = (obj,transceiver,x,y,w,h)=>{
+this.DrawLegend = function (obj,transceiver,x,y,w,h) {
   // Adds  text legend
   // without scale transceiver legend is 438px
   let group = obj.group().attr({id:transceiver.Technology+"_Legend"});
