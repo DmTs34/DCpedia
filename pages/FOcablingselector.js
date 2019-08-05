@@ -110,7 +110,7 @@ this.Draw = function(){
       Snap.load("https://dl.dropboxusercontent.com/s/4ecr0u0bx37quac/Refresh.svg", function (loadedFragment) {refresh.append(loadedFragment);})
       let title=Snap.parse('<title>Press here to restart the selector</title>')
           refresh.append(title)
-      refresh.click((event) => {
+      refresh.click(function (event){
         obj.CurrStep=0;
         obj.Selected = {sideA:new Transceiver(null),sideB:new Transceiver(null),}
         obj.Draw()
@@ -149,7 +149,7 @@ this.Draw = function(){
         //only if second step
         right.text(pX+(pW-3*pG)/2+8*pG,pY+27*pG,"Transceiver side B").attr({class:"Legend2",fontSize:40})
         right.attr({class:"selected"});
-        right.click((event) => obj.ShowTrSelector("yes"));
+        right.click(function (event) {obj.ShowTrSelector("yes")});
         
       } else if (this.CurrStep>=3) {
          let SmartShapeRight = new FOTransceiverSmartShape(obj.Selected.sideB,right,pX+(pW-3*pG)/2+2*pG,pY+13*pG,(pW-3*pG)/2);
@@ -287,7 +287,7 @@ this.ShowTrSelector = function(sideA){
        };                                  
         //when user clicks on icon - then the shape is selected and the FOselector re-draws
         //TODO add some animation effects here
-        selTr.click((event)=>{
+        selTr.click(function (event){
           if(sideA=="none"){
             let newTr = new Transceiver(i);
             newTr.Quantity=trQuantity[0];
@@ -307,7 +307,7 @@ this.ShowTrSelector = function(sideA){
         obj.CurrStep++;
         obj.Draw();
       })
-        selTr.hover((event)=>{
+        selTr.hover(function (event) {
           //let hovTr = new Transceiver(i);
           //console.log (hovTr.TotalSpeed)
       })
@@ -415,7 +415,7 @@ function MergeAndSplit(obj){
   }
   //last element is added without semicolon
   arr=arr+obj[obj.length-1];
-  return arr.split(";").filter((v, i, a) => a.indexOf(v) === i); 
+  return arr.split(";").filter(function (v, i, a) {a.indexOf(v) === i}); 
 }
 
 //function that reverses the array based on polarity
@@ -561,7 +561,7 @@ function drawTextIcon2(p,arr,W,H,selected){
         icon_gr.append(title)
         icon_gr
           .transform("translate("+(m+i*(iW+m))+","+(H-iH-m)+")")
-          .click(()=>{
+          .click(function (){
             let el = Snap('#Lane_'+arr[i]);
             let el2 = Snap('#LaneT_'+arr[i]);
             if(el.attr().show=="true"){
@@ -635,7 +635,7 @@ function drawTextIcon3(p,arr,W,H,clickCallback){
        //  icon_gr.append(title)
         icon_gr
           .transform("translate("+(m+i*(iW+m))+","+(H-iH-m)+")")
-          .click(()=>clickCallback(arr[i]));
+          .click(function () {clickCallback(arr[i])});
         group.append(icon_gr);
         };
   return group
@@ -646,5 +646,5 @@ function openPNG(el){
   console.log(el)
   let img = p.image('https://dummyimage.com/900x600/ccdbe9/000000.png&text='+el,10,10,880,580).attr({cursor:'pointer'});
   img.append(Snap.parse('<title>Click on image to close it</title>'))
-  img.click(()=>img.remove())
+  img.click(function (){img.remove()})
 }
