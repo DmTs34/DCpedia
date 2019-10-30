@@ -3,21 +3,32 @@
     <style>
       .grid-container {
         display:grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         grid-gap: 10px;
-        background-color:white;
+        background-color:lightblue;
         padding:10px
       }
-      
+      .grid-container > div {
+        background-color:white;
+      }
+      .header {
+        grid-column:1 / span 2;
+      }
+     
     </style>
   </head>
 <body>
-  <h1>Web-tools</h1>
   <div class="grid-container">
+    <div class="header">
+      <h1>Web-tools</h1> 
+    </div>
     <div class="item1">
       <a href = "pages/LisaPatchingGuide.html"><img src="images/patchingguide.png" width="400px" height="400px"></a> 
     </div>
     <div class="item2">
+      <a href = "pages/LISA1500PatchingGuide.html"><img src="images/LISA1500PatchingGuide.png" width="400px" height="400px"></a>
+    </div>
+    <div class="item3">
       <a href = "pages/LISA1500PatchingGuide.html"><img src="images/LISA1500PatchingGuide.png" width="400px" height="400px"></a>
     </div>
   <!--<p> <a href = "pages/LisaPatchingGuide.html"><img src="images/patchingguide.png" width="400px" height="400px"></a> </p>
