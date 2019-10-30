@@ -3,6 +3,7 @@
     <style>
       .grid-container {
         display:grid;
+        grid-template-columns: auto auto auto;
         grid-gap: 10px;
         background-color:lightblue;
         padding:10px
@@ -10,29 +11,22 @@
       .grid-container > div {
         background-color:white;
       }
-      
-      @media only screen and (max-width: 600px){
+      .header {
+        grid-column:1 / span 3;
+      }
+      @media only screen and (max-width: 850px){
         .grid-container{
             grid-template-columns: auto;
         }
       }
-      @media only screen and (min-width: 600px) and (max-width: 1200px){
+      @media only screen and (min-width: 850px) and (max-width: 1200px){
          .grid-container{
             grid-template-columns: auto auto;
         }
         .header {
         grid-column:1/ span 2;
       }
-      }
-      @media only screen and (min-width:1200px){
-         .grid-container{
-            grid-template-columns: auto auto auto;
-        }
-        .header {
-        grid-column:1 / span 3;
-      }
-      }
-     
+      }     
     </style>
   </head>
 <body>
