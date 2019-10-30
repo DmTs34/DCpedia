@@ -3,7 +3,7 @@
     <style>
       .grid-container {
         display:grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         grid-gap: 10px;
         background-color:lightblue;
         padding:10px
@@ -12,9 +12,15 @@
         background-color:white;
       }
       .header {
-        grid-column:1 / span 2;
+        grid-column:1 / span 3;
       }
       @media only screen and (max-width:500px){
+        .icon1 {grid-column: 1 / span 3;}
+        .icon2 {grid-column: 1 / span 3;}
+        .icon3 {grid-column: 1 / span 3;}
+        .icon4 {grid-column: 1 / span 3;}
+      }
+      @media only screen and (max-width:1200px){
         .icon1 {grid-column: 1 / span 2;}
         .icon2 {grid-column: 1 / span 2;}
         .icon3 {grid-column: 1 / span 2;}
