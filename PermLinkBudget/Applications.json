@@ -1,0 +1,2063 @@
+[
+ {
+   "Application": "1000Base-SX",
+   "Fiber type": "OM3",
+   "Channel length, max": 550,
+   "Wavelength": 850,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 3.56,
+   "Source": "ISO/IEC 11801 ed2.2"
+ },
+ {
+   "Application": "1000Base-SX",
+   "Fiber type": "OM4",
+   "Channel length, max": 550,
+   "Wavelength": 850,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 3.56,
+   "Source": "ISO/IEC 11801 ed2.2"
+ },
+ {
+   "Application": "1000Base-SX",
+   "Fiber type": "OM5",
+   "Channel length, max": 550,
+   "Wavelength": 850,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 3.56,
+   "Source": "ISO/IEC 11801 ed2.2"
+ },
+ {
+   "Application": "10GBase-SR",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 2.6,
+   "Source": "ISO/IEC 11801 ed2.2"
+ },
+ {
+   "Application": "10GBase-SR",
+   "Fiber type": "OM4",
+   "Channel length, max": 400,
+   "Wavelength": 850,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 2.6,
+   "Source": "ISO/IEC 11801 ed2.2"
+ },
+ {
+   "Application": "10GBase-SR",
+   "Fiber type": "OM5",
+   "Channel length, max": 400,
+   "Wavelength": 850,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 2.6,
+   "Source": "ISO/IEC 11801 ed2.2"
+ },
+ {
+   "Application": "40GBase-SR4",
+   "Fiber type": "OM3",
+   "Channel length, max": 100,
+   "Wavelength": 850,
+   "Physical interface": "MPO-8",
+   "Optical loss budget for cabling": 1.9,
+   "Source": "ISO/IEC 11801 ed2.2"
+ },
+ {
+   "Application": "40GBase-SR4",
+   "Fiber type": "OM4",
+   "Channel length, max": 150,
+   "Wavelength": 850,
+   "Physical interface": "MPO-8",
+   "Optical loss budget for cabling": 1.5,
+   "Source": "ISO/IEC 11801 ed2.2"
+ },
+ {
+   "Application": "40GBase-SR4",
+   "Fiber type": "OM5",
+   "Channel length, max": 150,
+   "Wavelength": 850,
+   "Physical interface": "MPO-8",
+   "Optical loss budget for cabling": 1.5,
+   "Source": "ISO/IEC 11801 ed2.2"
+ },
+ {
+   "Application": "100GBase-SR4",
+   "Fiber type": "OM3",
+   "Channel length, max": 70,
+   "Wavelength": 850,
+   "Physical interface": "MPO-8",
+   "Optical loss budget for cabling": 1.8,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "100GBase-SR4",
+   "Fiber type": "OM4",
+   "Channel length, max": 100,
+   "Wavelength": 850,
+   "Physical interface": "MPO-8",
+   "Optical loss budget for cabling": 1.53,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "100GBase-SR4",
+   "Fiber type": "OM5",
+   "Channel length, max": 100,
+   "Wavelength": 850,
+   "Physical interface": "MPO-8",
+   "Optical loss budget for cabling": 1.53,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "100GBase-SR10",
+   "Fiber type": "OM3",
+   "Channel length, max": 100,
+   "Wavelength": 850,
+   "Physical interface": "MPO-20",
+   "Optical loss budget for cabling": 1.9,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "100GBase-SR10",
+   "Fiber type": "OM4",
+   "Channel length, max": 150,
+   "Wavelength": 850,
+   "Physical interface": "MPO-20",
+   "Optical loss budget for cabling": 1.5,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "100GBase-SR10",
+   "Fiber type": "OM5",
+   "Channel length, max": 150,
+   "Wavelength": 850,
+   "Physical interface": "MPO-20",
+   "Optical loss budget for cabling": 1.5,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "1000Base-LX",
+   "Fiber type": "OM3",
+   "Channel length, max": 550,
+   "Wavelength": 1300,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 2.35,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "1000Base-LX",
+   "Fiber type": "OM4",
+   "Channel length, max": 550,
+   "Wavelength": 1300,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 2.35,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "1000Base-LX",
+   "Fiber type": "OM5",
+   "Channel length, max": 550,
+   "Wavelength": 1300,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 2.35,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "1000Base-LX",
+   "Fiber type": "OS2",
+   "Channel length, max": 5000,
+   "Wavelength": 1310,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 4.7,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "IEEE 802.3: 10GBase-LR/LW",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 6.2,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "IEEE 802.3: 10GBase-LR/LW",
+   "Fiber type": "OS2",
+   "Channel length, max": 30000,
+   "Wavelength": 1550,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 10.9,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "40GBase-LR4",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 6.7,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "IEEE 802.3: 100GBase-LR4 (DWDM)",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 8.3,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "IEEE 802.3: 100GBase-ER4 (DWDM)",
+   "Fiber type": "OS2",
+   "Channel length, max": 40000,
+   "Wavelength": 1550,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 18,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "1 Gb/s FC",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 2.62,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "1 Gb/s FC",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "Duplex",
+   "Optical loss budget for cabling": 2.62,
+   "Source": "ISO/IEC 11801 ed3.0"
+ },
+ {
+   "Application": "10/100Base-SX",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4,
+   "Source": ""
+ },
+ {
+   "Application": "10/100Base-SX",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4,
+   "Source": ""
+ },
+ {
+   "Application": "10/100Base-SX",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4,
+   "Source": ""
+ },
+ {
+   "Application": "100Base-FX",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6.3,
+   "Source": ""
+ },
+ {
+   "Application": "100Base-FX",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6.3,
+   "Source": ""
+ },
+ {
+   "Application": "100Base-FX",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6.3,
+   "Source": ""
+ },
+ {
+   "Application": "100GBase-ER4",
+   "Fiber type": "OS2",
+   "Channel length, max": 30000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 15,
+   "Source": ""
+ },
+ {
+   "Application": "100GBase-LR4",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6.3,
+   "Source": ""
+ },
+ {
+   "Application": "10Base-FL",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 7.8,
+   "Source": ""
+ },
+ {
+   "Application": "10Base-FL",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 7.8,
+   "Source": ""
+ },
+ {
+   "Application": "10Base-FL",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 7.8,
+   "Source": ""
+ },
+ {
+   "Application": "10Base-E",
+   "Fiber type": "OS2",
+   "Channel length, max": 40000,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 11,
+   "Source": ""
+ },
+ {
+   "Application": "10Base-L",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6.2,
+   "Source": ""
+ },
+ {
+   "Application": "10GBase-LRM",
+   "Fiber type": "OM3",
+   "Channel length, max": 220,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.9,
+   "Source": ""
+ },
+ {
+   "Application": "10GBase-LRM",
+   "Fiber type": "OM4",
+   "Channel length, max": 220,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.9,
+   "Source": ""
+ },
+ {
+   "Application": "10GBase-LRM",
+   "Fiber type": "OM5",
+   "Channel length, max": 220,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.9,
+   "Source": ""
+ },
+ {
+   "Application": "10GBase-LRM",
+   "Fiber type": "OS2",
+   "Channel length, max": 220,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.9,
+   "Source": ""
+ },
+ {
+   "Application": "10GBase-LX4",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "10GBase-LX4",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "10GBase-LX4",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "10GBase-LX4",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6.3,
+   "Source": ""
+ },
+ {
+   "Application": "40GBase-ER4 (min loss 9.0 @1310 nm)",
+   "Fiber type": "OS2",
+   "Channel length, max": 30000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 18.5,
+   "Source": ""
+ },
+ {
+   "Application": "40GBase-FR",
+   "Fiber type": "OS2",
+   "Channel length, max": 2000,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4,
+   "Source": ""
+ },
+ {
+   "Application": "ATM155",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 10,
+   "Source": ""
+ },
+ {
+   "Application": "ATM155",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 10,
+   "Source": ""
+ },
+ {
+   "Application": "ATM155",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 10,
+   "Source": ""
+ },
+ {
+   "Application": "ATM155SWL",
+   "Fiber type": "OM3",
+   "Channel length, max": 1000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 7.2,
+   "Source": ""
+ },
+ {
+   "Application": "ATM155SWL",
+   "Fiber type": "OM4",
+   "Channel length, max": 1000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 7.2,
+   "Source": ""
+ },
+ {
+   "Application": "ATM155SWL",
+   "Fiber type": "OM5",
+   "Channel length, max": 1000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 7.2,
+   "Source": ""
+ },
+ {
+   "Application": "ATM52",
+   "Fiber type": "OM3",
+   "Channel length, max": 3000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 10,
+   "Source": ""
+ },
+ {
+   "Application": "ATM52",
+   "Fiber type": "OM4",
+   "Channel length, max": 3000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 10,
+   "Source": ""
+ },
+ {
+   "Application": "ATM52",
+   "Fiber type": "OM5",
+   "Channel length, max": 3000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 10,
+   "Source": ""
+ },
+ {
+   "Application": "ATM622 Fiber Optic",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6,
+   "Source": ""
+ },
+ {
+   "Application": "ATM622 Fiber Optic",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6,
+   "Source": ""
+ },
+ {
+   "Application": "ATM622 Fiber Optic",
+   "Fiber type": "OM5",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6,
+   "Source": ""
+ },
+ {
+   "Application": "ATM622 SWL Fiber Optic",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4,
+   "Source": ""
+ },
+ {
+   "Application": "ATM622 SWL Fiber Optic",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4,
+   "Source": ""
+ },
+ {
+   "Application": "ATM622 SWL Fiber Optic",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4,
+   "Source": ""
+ },
+ {
+   "Application": "FDDI Fiber Optic",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 11,
+   "Source": ""
+ },
+ {
+   "Application": "FDDI Fiber Optic",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 11,
+   "Source": ""
+ },
+ {
+   "Application": "FDDI Fiber Optic",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 11,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 100-M5-SN-I",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.85,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 100-M5-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.85,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 100-M5-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.85,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 100-M5E-SN-I",
+   "Fiber type": "OM3",
+   "Channel length, max": 860,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.62,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 100-M5E-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 860,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.62,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 100-M5E-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 860,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.62,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 100-SM-LC-L",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 7.8,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1200-M5-SN-I",
+   "Fiber type": "OM3",
+   "Channel length, max": 82,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.2,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1200-M5-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 82,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.2,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1200-M5-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 82,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.2,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1200-M5E-SN-I",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.6,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1200-M5E-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.6,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1200-M5E-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.6,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1200-SM-LC-L",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 133",
+   "Fiber type": "OM3",
+   "Channel length, max": 1500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 133",
+   "Fiber type": "OM4",
+   "Channel length, max": 1500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 133",
+   "Fiber type": "OM5",
+   "Channel length, max": 1500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1600-M5-SN-S",
+   "Fiber type": "OM3",
+   "Channel length, max": 35,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.63,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1600-M5-SN-S",
+   "Fiber type": "OM4",
+   "Channel length, max": 35,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.63,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1600-M5-SN-S",
+   "Fiber type": "OM5",
+   "Channel length, max": 35,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.63,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1600-M5E-SN-I",
+   "Fiber type": "OM3",
+   "Channel length, max": 100,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.86,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1600-M5E-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 100,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.86,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1600-M5E-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 100,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.86,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1600-M5F-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 125,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1600-M5F-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 125,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 1600-SM-LC-L",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6.4,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 200-M5-SN-I",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.62,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 200-M5-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.62,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 200-M5-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.62,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 200-M5E-SN-I",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.31,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 200-M5E-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.31,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 200-M5E-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.31,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 200-SM-LC-L",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 7.8,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 266",
+   "Fiber type": "OM3",
+   "Channel length, max": 1500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 5.5,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 266",
+   "Fiber type": "OM4",
+   "Channel length, max": 1500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 5.5,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 266",
+   "Fiber type": "OM5",
+   "Channel length, max": 1500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 5.5,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 266SWL",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 12,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 266SWL",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 12,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 266SWL",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 12,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 400-M5-SN-I",
+   "Fiber type": "OM3",
+   "Channel length, max": 150,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.06,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 400-M5-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 150,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.06,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 400-M5-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 150,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.06,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 400-M5E-SN-I",
+   "Fiber type": "OM3",
+   "Channel length, max": 380,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.88,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 400-M5E-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 380,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.88,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 400-M5E-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 380,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.88,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 400-M5F-SN-I",
+   "Fiber type": "OM3",
+   "Channel length, max": 400,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.95,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 400-M5F-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 400,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.95,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 400-M5F-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 400,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.95,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 400-SM-LC-L",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 7.8,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 400-SM-LC-M",
+   "Fiber type": "OS2",
+   "Channel length, max": 4000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.8,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 800-M5-SN-S",
+   "Fiber type": "OM3",
+   "Channel length, max": 50,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.68,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 800-M5-SN-S",
+   "Fiber type": "OM4",
+   "Channel length, max": 50,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.68,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 800-M5-SN-S",
+   "Fiber type": "OM5",
+   "Channel length, max": 50,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.68,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 800-M5E-SN-I",
+   "Fiber type": "OM3",
+   "Channel length, max": 150,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.04,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 800-M5E-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 150,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.04,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 800-M5E-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 150,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.04,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 800-M5F-SN-I",
+   "Fiber type": "OM4",
+   "Channel length, max": 190,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.19,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 800-M5F-SN-I",
+   "Fiber type": "OM5",
+   "Channel length, max": 190,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.19,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 800-SM-LC-I",
+   "Fiber type": "OS2",
+   "Channel length, max": 1400,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.6,
+   "Source": ""
+ },
+ {
+   "Application": "Fibre Channel 800-SM-LC-L",
+   "Fiber type": "OS2",
+   "Channel length, max": 10000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6.4,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-2000 Ch",
+   "Fiber type": "OS2",
+   "Channel length, max": 2000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.5,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-2000 Ch",
+   "Fiber type": "OS2",
+   "Channel length, max": 2000,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.5,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-2000 Ch",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-2000 Ch",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-2000 Ch",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-2000 Ch",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-2000 Ch",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-2000 Ch",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-300 Ch",
+   "Fiber type": "OS2",
+   "Channel length, max": 300,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.8,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-300 Ch",
+   "Fiber type": "OS2",
+   "Channel length, max": 300,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.8,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-300 Ch",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-300 Ch",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-300 Ch",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-300 Ch",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-300 Ch",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-300 Ch",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-500 Ch",
+   "Fiber type": "OS2",
+   "Channel length, max": 500,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-500 Ch",
+   "Fiber type": "OS2",
+   "Channel length, max": 500,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-500 Ch",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-500 Ch",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-500 Ch",
+   "Fiber type": "OM5",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-500 Ch",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-500 Ch",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "GB 50312-2007 OF-500 Ch",
+   "Fiber type": "OM5",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-2000 Channel",
+   "Fiber type": "OS2",
+   "Channel length, max": 2000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.5,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-2000 Channel",
+   "Fiber type": "OS2",
+   "Channel length, max": 2000,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.5,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-2000 Channel",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-2000 Channel",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-2000 Channel",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-2000 Channel",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-2000 Channel",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-2000 Channel",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-300 Channel",
+   "Fiber type": "OS2",
+   "Channel length, max": 300,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.8,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-300 Channel",
+   "Fiber type": "OS2",
+   "Channel length, max": 300,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.8,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-300 Channel",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-300 Channel",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-300 Channel",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-300 Channel",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-300 Channel",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-300 Channel",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-500",
+   "Fiber type": "OS2",
+   "Channel length, max": 500,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-500",
+   "Fiber type": "OS2",
+   "Channel length, max": 500,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-500",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-500",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-500",
+   "Fiber type": "OM5",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-500",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-500",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "EN50173 OF-500",
+   "Fiber type": "OM5",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-2000 CH",
+   "Fiber type": "OS2",
+   "Channel length, max": 2000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.5,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-2000 CH",
+   "Fiber type": "OS2",
+   "Channel length, max": 2000,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.5,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-2000 CH",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-2000 CH",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-2000 CH",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-2000 CH",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-2000 CH",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-2000 CH",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-300 CH",
+   "Fiber type": "OS2",
+   "Channel length, max": 300,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.8,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-300 CH",
+   "Fiber type": "OS2",
+   "Channel length, max": 300,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.8,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-300 CH",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-300 CH",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-300 CH",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-300 CH",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-300 CH",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-300 CH",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-500 CH",
+   "Fiber type": "OS2",
+   "Channel length, max": 500,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-500 CH",
+   "Fiber type": "OS2",
+   "Channel length, max": 500,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-500 CH",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-500 CH",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-500 CH",
+   "Fiber type": "OM5",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-500 CH",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-500 CH",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "ISO/IEC 11801-2002 OF-500 CH",
+   "Fiber type": "OM5",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-300 CH",
+   "Fiber type": "OS2",
+   "Channel length, max": 300,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.8,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-300 CH",
+   "Fiber type": "OS2",
+   "Channel length, max": 300,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.8,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-300 CH",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-300 CH",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-300 CH",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.55,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-300 CH",
+   "Fiber type": "OM3",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-300 CH",
+   "Fiber type": "OM4",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-300 CH",
+   "Fiber type": "OM5",
+   "Channel length, max": 300,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 1.95,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-500 CH",
+   "Fiber type": "OS2",
+   "Channel length, max": 500,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-500 CH",
+   "Fiber type": "OS2",
+   "Channel length, max": 500,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-500 CH",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-500 CH",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-500 CH",
+   "Fiber type": "OM5",
+   "Channel length, max": 500,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 3.25,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-500 CH",
+   "Fiber type": "OM3",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-500 CH",
+   "Fiber type": "OM4",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "JIS X5150:2016 OF-500 CH",
+   "Fiber type": "OM5",
+   "Channel length, max": 500,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2.25,
+   "Source": ""
+ },
+ {
+   "Application": "General Fiber Optic",
+   "Fiber type": "OS2",
+   "Channel length, max": 5000,
+   "Wavelength": 1310,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6.5,
+   "Source": ""
+ },
+ {
+   "Application": "General Fiber Optic",
+   "Fiber type": "OS2",
+   "Channel length, max": 5000,
+   "Wavelength": 1550,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 6.5,
+   "Source": ""
+ },
+ {
+   "Application": "General Fiber Optic",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "General Fiber Optic",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "General Fiber Optic",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 8.5,
+   "Source": ""
+ },
+ {
+   "Application": "General Fiber Optic",
+   "Fiber type": "OM3",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "General Fiber Optic",
+   "Fiber type": "OM4",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "General Fiber Optic",
+   "Fiber type": "OM5",
+   "Channel length, max": 2000,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 4.5,
+   "Source": ""
+ },
+ {
+   "Application": "GOST R 53245-2008 Fiber Horiz",
+   "Fiber type": "OM3",
+   "Channel length, max": 90,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "GOST R 53245-2008 Fiber Horiz",
+   "Fiber type": "OM4",
+   "Channel length, max": 90,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "GOST R 53245-2008 Fiber Horiz",
+   "Fiber type": "OM5",
+   "Channel length, max": 90,
+   "Wavelength": 850,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "GOST R 53245-2008 Fiber Horiz",
+   "Fiber type": "OM3",
+   "Channel length, max": 90,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "GOST R 53245-2008 Fiber Horiz",
+   "Fiber type": "OM4",
+   "Channel length, max": 90,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ },
+ {
+   "Application": "GOST R 53245-2008 Fiber Horiz",
+   "Fiber type": "OM5",
+   "Channel length, max": 90,
+   "Wavelength": 1300,
+   "Physical interface": "",
+   "Optical loss budget for cabling": 2,
+   "Source": ""
+ }
+]
