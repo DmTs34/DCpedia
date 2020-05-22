@@ -1,0 +1,2 @@
+\\CHPFS53\homes3$\tsypldm\GitHub\DCpedia\HS_DC_CalcTool_webapp\HS_DC_CalcTool_webapp\obj\Debug\HS_DC_CalcTool_webapp.vbprojAssemblyReference.cache
+\\CHPFS53\homes3$\tsypldm\GitHub\DCpedia\HS_DC_CalcTool_webapp\HS_DC_CalcTool_webapp\obj\Debug\HS_DC_CalcTool_webapp.vbproj.CoreCompileInputs.cache

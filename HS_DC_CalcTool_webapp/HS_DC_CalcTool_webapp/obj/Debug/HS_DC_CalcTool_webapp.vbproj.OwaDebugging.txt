@@ -1,0 +1,7 @@
+False
+20240e76-bbb5-4189-bf72-1c5839f91417f88c9bf9-f35a-4132-a29d-48d8ff15af00
+{5093e67a-cf1a-4f4f-96c1-363c4fe7925f}{75e8748a-e28f-460d-9dda-7b6906dab50a}
+{70d3f18d-aaef-4f97-ac02-026fd4681bea}
+1.0.0.0
+HS_DC_CalcTool_webapp
+_layouts/15/
