@@ -4,14 +4,11 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-        
-
         {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
-            "file":"//chpfs53/homes3$/tsypldm/GitHub/DCpedia/HS_DC_CalcTool_webapp/src/index.html"
+            "file":"//chpfs53/homes3$/tsypldm/GitHub/DCpedia/HS_DC_CalcTool_webapp/index.html"
             // \\CHPFS53\homes3$\tsypldm\GitHub\DCpedia\HS_DC_CalcTool_webapp\src
         }
 

@@ -9,7 +9,8 @@ class PreLoader {
         };
         this.stop = function () {
             setTimeout(()=> {
-            document.getElementById('pre-loader').style.dysplay="none"
+                console.log("PreLoaded class stopped")
+            //document.getElementById('pre-loader').style.dysplay="none"
             },2000);
         };
     }
