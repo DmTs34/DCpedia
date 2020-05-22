@@ -122,9 +122,9 @@
         <bt:Image id="Contoso.tpicon_80x80" DefaultValue="https://microsoft.github.io/mls-excel-app/assets/Button80x80.png" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Contoso.DesktopFunctionFile.Url" DefaultValue="https://dmts34.github.io/DCpedia/HS_DC_CalcTool_webapp/src/index.html" />
-        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="https://dmts34.github.io/DCpedia/HS_DC_CalcTool_webapp/src/index.html" />
-        <bt:Url id="Contoso.GetStarted.LearnMoreUrl" DefaultValue="https://microsoft.github.io/mls-excel-app/function-file/function-file.html" />
+        <bt:Url id="Contoso.DesktopFunctionFile.Url" DefaultValue="https://dmts34.github.io/DCpedia/HS_DC_CalcTool_webapp/index.html" />
+        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="https://dmts34.github.io/DCpedia/HS_DC_CalcTool_webapp/index.html" />
+        <bt:Url id="Contoso.GetStarted.LearnMoreUrl" DefaultValue="https://microsoft.github.io/mls-excel-app/Functions/FunctionFile.html" />
       </bt:Urls>
       <!-- ShortStrings max characters==125. -->
       <bt:ShortStrings>
