@@ -15,8 +15,8 @@
             initiateSuccessLoad(data) //pass data to the initiate successLoad
         })
         .catch(error => {
-            console.log("Data not recieved, error:", error)
-            initiateUnsuccessLoad() //if any errors then initiate unsuccess load
+            // console.log("Data not recieved, error:", error)
+            initiateUnsuccessLoad(error) //if any errors then initiate unsuccess load
         })
         .finally(()=> pl.stop())
 })();
@@ -28,8 +28,8 @@ function initiateSuccessLoad(data){
 }
 
 //when data recieved then the task pane DOM loads  
-function initiateUnsuccessLoad(data){
-    console.log("building the task pane structure without data", data)
+function initiateUnsuccessLoad(error){
+    console.log("building the task pane structure without data", error)
 }
 
 
