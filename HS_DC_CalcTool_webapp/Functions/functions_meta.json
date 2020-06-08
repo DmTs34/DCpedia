@@ -1,0 +1,19 @@
+{ "$schema": "https://developer.microsoft.com/en-us/json-schemas/office-js/custom-functions.schema.json",
+    "functions": [
+        {
+            "id": "DETECT_PRODUCT",
+            "name": "DETECT_PRODUCT",
+            "description": "Detects product",
+            "result": {
+                "dimensionality": "scalar"
+            },
+            "parameters": [
+                {
+                    "name": "string",
+                    "type": "string"
+                }
+            ]
+            
+        }
+    ]
+}

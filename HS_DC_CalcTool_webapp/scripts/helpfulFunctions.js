@@ -1,0 +1,37 @@
+//checks if elements in array are not duplicated
+//returns objects, where true if found and false if not found and array of duplicated elements
+function foundDuplicatesInArray(array){
+    let arr=[], response=false;
+    for(let i=0;i<array.length;i++){
+        if(array.indexOf(array[i])!==i){
+            arr.push(array[i])
+            response=true
+        }
+    }
+    return {
+        response:response,
+        duplicates:arr
+    }
+}
+//checks if all elements of array1 are contained in array2 
+//returns true if all match or false if at least one doesn't match
+function arrayMatchesArray(array1=[],array2=[]){
+    for(let i=0;i<array1.length;i++){
+        if (array2.indexOf(array1[i])===-1){
+            return false
+        }
+    }
+    return true
+}
+
+//returns true if the parameter can be item number otherwise - false
+function isItemNumber(param){
+    let regEx = /^[1,2,8,9]\d\d\d\d\d\d\d$/g;
+    return regEx.test(param)
+}
+
+//returns true if the parameter can be item number otherwise - false
+function isDescrCode(param){
+    if(param.length===0){return false}
+    return param.length<=30
+}

@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.https": {
+    "enable": true, //set it true to enable the feature.
+    "cert": "C://WORK/SSLcerts/27502927_127.0.0.1.cert", //full path of the certificate
+    "key": "C://WORK/SSLcerts/27502927_127.0.0.1.key", //full path of the private key
+    "passphrase": "12345"
+    }
+    }

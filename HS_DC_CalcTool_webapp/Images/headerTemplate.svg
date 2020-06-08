@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="6.30963in" height="2.2742in"
+		viewBox="0 0 454.293 163.742" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
+	<v:documentProperties v:langID="2055" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#005096;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.0111614}
+		.st3 {fill:#000000;font-family:Arial Narrow;font-size:1.00001em}
+		.st4 {fill:#000000;font-family:Arial Narrow;font-size:0.666664em}
+		.st5 {fill:#000000;font-family:Arial Narrow;font-size:0.75em;font-style:italic}
+		.st6 {fill:#000000;font-family:Arial Narrow;font-size:0.75em}
+		.st7 {font-size:1em}
+		.st8 {font-size:1em;font-weight:bold}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Page-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group13-1" transform="translate(0.375,-0.375)" v:mID="13" v:groupContext="group">
+			<title>Sheet.13</title>
+			<g id="shape2-2" v:mID="2" v:groupContext="shape">
+				<title>Sheet.2</title>
+				<rect x="0" y="0.750008" width="453.543" height="162.992" class="st1"/>
+			</g>
+			<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(223.773,-122.434)">
+				<title>HUBER+SUHNER text</title>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<path d="M86.45 149.49 C85.71 147.64 84.48 145.04 80.33 144.96 L71.33 144.85 L71.33 163.36 L77.72 163.4 L77.72 157.37
+							 L80.69 163.4 L88.22 163.4 L83.31 156.09 C84.77 155.39 85.4 154.98 85.81 154.49 C86.65 153.5 86.64 152.16
+							 86.45 149.49 ZM77.75 149.94 A3.34174 2.26569 175.81 0 1 79.66 150.2 A2.24147 1.52027 14.79 0 1 80.28
+							 151.66 A2.46173 1.3876 174.52 0 1 79.58 152.75 A2.70139 1.52262 2.09 0 1 77.75 153.08 L77.75 149.94
+							 ZM95.1 148.66 L95.1 153.57 L90.27 153.57 L90.27 158.49 L95.04 158.47 L95.04 163.4 L99.8 163.4 L99.8
+							 158.62 L104.54 158.49 L104.54 153.57 L99.8 153.57 L99.8 148.72 L95.1 148.66 ZM143.74 144.88 L143.74
+							 163.4 L150.03 163.34 L150.03 156.96 L154.05 156.94 L154.03 163.4 L160.32 163.4 L160.32 144.88 L154.03
+							 144.88 L154 151.16 L150.03 151.16 L150.03 144.88 L143.74 144.88 ZM163.06 144.88 L163.06 163.4 L169.21
+							 163.4 L169.21 156.01 L169.31 154.07 L174.82 163.4 L181.07 163.4 L181.01 144.88 L174.82 144.88 L174.91
+							 151.84 L175.38 155.17 L169.32 144.88 L163.06 144.88 ZM183.83 144.88 L183.83 163.4 L196.1 163.4 L196.1
+							 158.34 L190.39 158.35 L190.41 156.54 L195.31 156.52 L195.31 151.71 L190.41 151.71 L190.41 149.94 L195.91
+							 149.94 L195.83 144.88 L183.83 144.88 ZM213.82 149.49 C213.09 147.64 211.86 145.04 207.71 144.96 L198.71
+							 144.85 L198.71 163.36 L205.09 163.4 L205.09 157.37 L208.07 163.4 L215.6 163.4 L210.68 156.09 C212.14
+							 155.39 212.77 154.98 213.19 154.49 C214.03 153.5 214.01 152.16 213.82 149.49 ZM205.12 149.94 A3.34174
+							 2.26569 175.81 0 1 207.04 150.2 A2.24147 1.52027 14.79 0 1 207.65 151.66 A2.46173 1.3876 174.52 0 1
+							 206.95 152.75 A2.70139 1.52262 2.09 0 1 205.12 153.08 L205.12 149.94 ZM19.42 144.88 L19.42 156.09 A7.41223
+							 6.92931 -174.57 0 0 21.68 161.78 A9.44189 8.82623 179.99 0 0 27.54 163.68 A9.16328 8.24958 -177.94 0
+							 0 33.84 161.72 A8.2905 7.46409 -4.66 0 0 36.03 156.04 L36.05 144.88 L29.56 144.88 L29.5 155.92 A1.60974
+							 1.98127 0 0 1 27.89 157.9 A1.92027 2.08151 0 0 1 25.97 155.83 L25.95 144.88 L19.42 144.88 ZM0 144.88
+							 L0 163.4 L6.29 163.34 L6.29 156.96 L10.31 156.94 L10.29 163.4 L16.58 163.4 L16.58 144.88 L10.29 144.88
+							 L10.27 151.16 L6.29 151.16 L6.29 144.88 L0 144.88 ZM38.88 144.92 L38.88 163.36 L48.38 163.36 A5.92932
+							 4.81991 -180 0 0 54.31 158.54 A4.0489 2.79244 -88.62 0 0 52.61 154.72 A6.95244 4.79401 -79.58 0 0 51.15
+							 153.99 A9.27797 6.35972 -0.78 0 0 51.15 153.78 A7.33398 3.76999 -102.28 0 0 52.59 152.73 A3.53025 1.81517
+							 -93.1 0 0 53.45 149.5 A5.48484 4.73542 -1.31 0 0 51.92 146.33 A6.74421 5.82296 -4.95 0 0 46.82 144.9
+							 L38.88 144.92 ZM47.55 150.7 C47.54 151.08 47.4 151.31 47.19 151.5 C47.03 151.64 46.83 151.76 46.57 151.83
+							 C45.96 152.01 45.01 151.98 44.94 152 L44.93 149.38 L46.14 149.37 C46.57 149.34 46.83 149.42 47.04 149.58
+							 C47.3 149.78 47.47 150.1 47.55 150.7 ZM48.28 157.49 C48.17 157.9 48.09 158.14 47.94 158.37 C47.84 158.53
+							 47.69 158.69 47.38 158.8 C46.66 159.04 45.03 158.95 44.94 158.98 L44.93 155.93 L46.43 155.91 C46.97
+							 155.88 47.34 156.09 47.65 156.26 C48.04 156.48 48.31 156.64 48.28 157.49 ZM56.37 144.88 L56.37 163.4
+							 L68.64 163.4 L68.64 158.34 L62.93 158.35 L62.94 156.54 L67.85 156.52 L67.85 151.71 L62.94 151.71 L62.94
+							 149.94 L68.45 149.94 L68.37 144.88 L56.37 144.88 ZM119.84 150.95 L121.6 146.2 a3.89538 0.622978 -167.7
+							 0 0 -3.67251 -1.43823 A9.58105 8.29883 -72.5 0 0 110.8 146.19 A8.12102 7.03531 -75.34 0 0 108.55 149.12
+							 A9.04937 7.84209 -84.21 0 0 108.16 151.09 A15.1879 6.10886 -52.27 0 0 109.06 154.26 A35.3223 14.202
+							 -48.72 0 0 111.78 156.08 A27.9911 11.2513 -46.24 0 0 113.27 156.44 A25.7326 10.333 -36.6 0 0 114.7 156.73
+							 L114.7 156.73 a0.875084 0.727898 80.99 0 1 0.841398 0.715756 a1.37817 0.961857 171.3 0 1 -1.47017 1.27699
+							 A3.88878 1.65552 3.9 0 1 110.83 157.72 A4.57591 1.94828 170.91 0 1 110.26 157.33 A6.72995 2.86854 153.24
+							 0 1 109.95 157.12 A9.92567 4.23394 145.04 0 1 109.73 156.96 A5.83827 2.49262 136.52 0 1 109.52 156.78
+							 L107.5 162 C109.29 162.84 110.79 163.32 112.66 163.59 C113.59 163.73 114.61 163.81 115.6 163.67 C117.48
+							 163.42 119.21 162.38 120.62 161.18 C121.19 160.54 121.79 159.21 122.02 157.97 C122.19 157.11 122.17
+							 156.29 121.99 155.57 C121.5 153.59 119.76 152.35 116.99 151.68 C116.55 151.52 114.71 151.26 114.67 150.64
+							 C114.68 150.78 114.69 150.35 114.76 150.11 C114.85 149.78 115.06 149.8 115.42 149.63 C116.71 149.38
+							 118.12 149.97 119.31 150.64 C119.45 150.72 119.6 150.8 119.84 150.95 ZM124.14 144.88 L124.14 156.09
+							 A7.41223 6.92931 -174.57 0 0 126.41 161.78 A9.44189 8.82623 179.99 0 0 132.26 163.68 A9.16328 8.24958
+							 -177.94 0 0 138.56 161.72 A8.2905 7.46409 -4.66 0 0 140.75 156.04 L140.77 144.88 L134.29 144.88 L134.22
+							 155.92 A1.60974 1.98127 0 0 1 132.61 157.9 A1.92027 2.08151 0 0 1 130.69 155.83 L130.67 144.88 L124.14
+							 144.88 Z" class="st2"/>
+			</g>
+			<g id="shape4-6" v:mID="4" v:groupContext="shape" transform="translate(8.50394,-132.083)">
+				<title>Sheet.4</title>
+				<desc>Excel quotation</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="61.6535" cy="154.666" width="123.31" height="18.1529"/>
+				<rect x="0" y="145.589" width="123.307" height="18.1529" class="st1"/>
+				<text x="4" y="158.27" class="st3" v:langID="1033"><v:paragraph/><v:tabList/>Excel quotation</text>			</g>
+			<g id="shape5-9" v:mID="5" v:groupContext="shape" transform="translate(8.50394,-113.93)">
+				<title>Sheet.5</title>
+				<desc>No 58</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="61.6535" cy="154.666" width="123.31" height="18.1529"/>
+				<rect x="0" y="145.589" width="123.307" height="18.1529" class="st1"/>
+				<text x="4" y="158.27" class="st3" v:langID="1033"><v:paragraph/><v:tabList/>No 58</text>			</g>
+			<g id="shape6-12" v:mID="6" v:groupContext="shape" transform="translate(8.50394,-103.465)">
+				<title>Sheet.6</title>
+				<desc>Quotation code</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="61.6535" cy="158.509" width="123.31" height="10.4658"/>
+				<rect x="0" y="153.276" width="123.307" height="10.4658" class="st1"/>
+				<text x="4" y="160.91" class="st4" v:langID="1033"><v:paragraph/><v:tabList/>Quotation code</text>			</g>
+			<g id="shape7-15" v:mID="7" v:groupContext="shape" transform="translate(8.50394,-56.6929)">
+				<title>Sheet.7</title>
+				<desc>Quotation description</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="123.307" cy="143.9" width="246.62" height="39.685"/>
+				<rect x="0" y="124.057" width="246.614" height="39.685" class="st1"/>
+				<text x="4" y="146.6" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>Quotation description</text>			</g>
+			<g id="shape8-18" v:mID="8" v:groupContext="shape" transform="translate(8.50394,-33.4397)">
+				<title>Sheet.8</title>
+				<desc>Customer name</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="123.307" cy="156.368" width="246.62" height="14.7492"/>
+				<rect x="0" y="148.993" width="246.614" height="14.7492" class="st1"/>
+				<text x="4" y="159.07" class="st6" v:langID="1033"><v:paragraph/><v:tabList/>Customer name</text>			</g>
+			<g id="shape9-21" v:mID="9" v:groupContext="shape" transform="translate(8.50394,-11.3386)">
+				<title>Sheet.9</title>
+				<desc>Customer contact details</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="123.307" cy="152.692" width="246.62" height="22.1012"/>
+				<rect x="0" y="141.641" width="246.614" height="22.1012" class="st1"/>
+				<text x="4" y="155.39" class="st6" v:langID="1033"><v:paragraph/><v:tabList/>Customer contact details</text>			</g>
+			<g id="shape10-24" v:mID="10" v:groupContext="shape" transform="translate(283.465,-53.8583)">
+				<title>Sheet.10</title>
+				<desc>Your name Your email</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="77.9528" cy="142.482" width="155.91" height="42.5197"/>
+				<rect x="0" y="121.222" width="155.906" height="42.5197" class="st1"/>
+				<text x="4" y="139.78" class="st6" v:langID="1033"><v:paragraph/><v:tabList/>Your name<v:newlineChar/><tspan x="4"
+							dy="1.2em" class="st7">Your email</tspan></text>			</g>
+			<g id="shape11-28" v:mID="11" v:groupContext="shape" transform="translate(371.339,-11.3386)">
+				<title>Sheet.11</title>
+				<desc>Date</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="34.0157" cy="156.942" width="68.04" height="13.6007"/>
+				<rect x="0" y="150.141" width="68.0315" height="13.6007" class="st1"/>
+				<text x="4" y="159.64" class="st6" v:langID="1033"><v:paragraph/><v:tabList/>Date</text>			</g>
+			<g id="shape12-31" v:mID="12" v:groupContext="shape" transform="translate(294.803,-11.3386)">
+				<title>Sheet.12</title>
+				<desc>Currency: CHF</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="34.0157" cy="156.942" width="68.04" height="13.6007"/>
+				<rect x="0" y="150.141" width="68.0315" height="13.6007" class="st1"/>
+				<text x="4" y="159.64" class="st6" v:langID="1033"><v:paragraph/><v:tabList/>Currency: <tspan class="st8">CHF</tspan></text>			</g>
+		</g>
+	</g>
+</svg>
