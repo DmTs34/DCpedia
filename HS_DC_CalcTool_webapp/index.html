@@ -18,7 +18,7 @@
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="scripts/helpfulFunctions.js" type="text/javascript"></script>
+    <script src="libs/pouchdb-7.1.1.min.js"></script>
     
     <!-- development -->
     <!-- For the Office UI Fabric, go to https://aka.ms/office-ui-fabric to learn more. -->
@@ -28,15 +28,18 @@
     <!-- To enable the offline use of Office UI Fabric, use: -->
     <!-- link rel="stylesheet" href="Content/fabric.min.css" -->
     <!-- link rel="stylesheet" href="Content/fabric.components.min.css" -->
-    <script src="Functions/FunctionFile.js" type="text/javascript"></script>
-    <script src="scripts/hs_dc_calctool_classes.js" type="text/javascript"></script>
-    <script src="scripts/hs_dc_calctool_range_detect.js" type="text/javascript"></script>
-    <script src="react/react-components.js"></script>
-    <script src="scripts/hs_dc_calctool.js" type="text/javascript"></script>
+
 
 </head>
 <body>
     <script> MutationObserver=null; </script>
     <div id="root"></div>
+    <!-- Scripts -->
+    <script src="scripts/helpfulFunctions.js" type="text/javascript"></script>
+    <script src="Functions/FunctionFile.js" type="text/javascript"></script>
+    <script src="scripts/hs_dc_calctool_classes.js" type="text/javascript"></script>
+    <script src="scripts/hs_dc_calctool_range_detect.js" type="text/javascript"></script>
+    <script src="react/react-components.js"></script>
+    <script src="scripts/hs_dc_calctool.js" type="text/javascript"></script>
 </body>
 </html>

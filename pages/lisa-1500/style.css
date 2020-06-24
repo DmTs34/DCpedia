@@ -1,26 +1,138 @@
-@font-face {
-  font-family: ZurichBT-Light;
-  src: url(https://dmts34.github.io/DCpedia/fonts/zurich-lt-bt-light.ttf);
-}
 
-body {  
-  background-color: 'white'
-}
+		
+		@font-face {
+			font-family: 'Mont_bold';
+			src: url('https://github.com/DmTs34/DCpedia/blob/master/fonts/Mont_bold.eot?raw=true');/* This doesn't work - IE9 Compat Modes */
+			src: url('https://www.hubersuhner.com/sprinx/fonts/39EC6C_1_0.woff2') format('woff2'),/* Super Modern Browsers */
+				 url('https://github.com/DmTs34/DCpedia/blob/master/fonts/Mont_bold.eot?#iefix') format('embedded-opentype'); /* This doesn't work - IE6-IE8 */
+		  }
+		  @font-face {
+			font-family: 'Mont';
+			src: url('https://github.com/DmTs34/DCpedia/blob/master/fonts/Mont.eot?raw=true');/* This doesn't work - IE9 Compat Modes */
+			src:  url('https://www.hubersuhner.com/sprinx/fonts/39EC6C_0_0.woff2') format('woff2'),/* Super Modern Browsers */
+				  url('https://github.com/DmTs34/DCpedia/blob/master/fonts/Mont.eot?#iefix') format('embedded-opentype'); /* This doesn't work - IE6-IE8 */
+		  }
+		  /*          @font-face {
+		  /*            font-family: 'MyWebFont';
+		  /*            src: url('webfont.eot'); /* IE9 Compat Modes */
+		  /*            src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		  /*                 url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+		  /*                 url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+		  /*                 url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+		  /*                 url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+		  /*          }*/
+		  
+		  
+		  body{
+			margin:0px; 
+			padding:10px; 
+			overflow:hidden;  
+		  }
+		  .paper_container{
+			position: absolute;
+			width:98%;
+			height:98%;
+			}
+		  .html_container{
+			position: absolute;
+			width:98%;
+			height:98%;
+			pointer-events:none;
+		  }
+		  .paper_svg {    
+			position: absolute;
+			width:100%;
+			height:100%;
+		  /*   preserveAspectRatio:'xMidYMid meet'; */
+		  }
+		  .SVG-h1-white{
+			font-family:Mont_bold;
+			fill:white;
+			font-size:30px;
+			pointer-events: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			stroke-width:0px
+		  }
+		  .SVG-h1-black{
+			font-family:Mont_bold;
+			fill:black;
+			font-size:30px;
+			pointer-events: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			stroke-width:0px
+		  }
+		  
+		  .Legend1 {
+			font:27px serif; 
+			fill: #706f6f;
+			font-family: "Mont_bold"; 
+			pointer-events: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			stroke-width:0px
+		  }
+		  .Legend2 {
+			font:27px serif; 
+			fill: #706f6f;
+			font-family: "Mont";
+			pointer-events: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		  }
+		  .Legend3 {
+			font:20px serif; 
+			fill: black;
+			opacity:0.8;
+			font-family: "Mont";
+			pointer-events: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		  }
+		  
+		  .alt-cords-button:hover{
+			fill:#F4511E
+		  }
+		  .Icon {
+			cursor:pointer;
+			fill:#82655c;
+		  }
+		  .Icon-background {
+			fill:#82655c;
+		  }
+		  .Icon-selected {
+			fill:#009a82;
+		  }
+		  .Icon:hover {
+			fill: #009a82;
+			transition: fill 0.5s; /* Animation */
+		  }
+		  
+		  #toggle_button_svg_1 {
+			font:27px serif; 
+			fill: black;
+			opacity:1;
+			font-family: "Mont";
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		  }
+		  svg
+		  {background-color: white}
 
-.tool {
-  width: 950px;  
-  margin:10px
-}
-svg {
-  display:block;
-  height:100%;
-  width:100%;
-  margin:0px;  
-  background-color: #cbdbe9;
-  padding:0px;
-}
-
-    .st1 {fill:#595959;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.05}
+		.st1 {fill:#595959;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.05}
 		.st2 {fill:#bfbfbf;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.03}
 		.st3 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.03;}
 		.st4 {fill:#ffffff;font-family:Calibri;font-size:0.7em}
@@ -42,67 +154,3 @@ svg {
 		.st20 {fill:none;stroke:#262626;stroke-width:0.75}
 		.st21 {fill:none; stroke:#262626;stroke-width:0.923118}
 		.st22 {fill:none; fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
-
-.Legend1 {
-  font:27px serif; 
-  fill: #005095;
-  font-family: "ZurichBT-Light"; 
-  pointer-events: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  stroke-width:0px
-}
-.Legend2 {
-  font:27px serif; 
-  fill: white;
-  font-family: "ZurichBT-Light";
-  pointer-events: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.Legend3 {
-  font:20px serif; 
-  fill: black;
-  opacity:0.8;
-  font-family: "ZurichBT-Light";
-  pointer-events: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.alt-cords-button:hover{
-  fill:#F4511E
-}
-.Icon {
-  cursor:pointer;
-  fill:#005095
-}
-.Icon-background {
-  fill:#005095;
-}
-.Icon-selected {
-  fill:#F4511E;
-}
-.Icon:hover {
-  fill: #F4511E;
-  transition: fill 0.5s; /* Animation */
-}
-.bg_blue_top{
-  fill:url(#blue_top)
-}
-
-#toggle_button_svg_1 {
-  font:27px serif; 
-  fill: black;
-  opacity:1;
-  font-family: "ZurichBT-Light";
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}

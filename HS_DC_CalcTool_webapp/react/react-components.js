@@ -1,9 +1,5 @@
 //import React from 'react';
 
-
-
-
-
 //Pre-loader image, get replaced by MainDiv component once loading is over
 class ReactPreLoader extends React.Component {
     constructor(props) {

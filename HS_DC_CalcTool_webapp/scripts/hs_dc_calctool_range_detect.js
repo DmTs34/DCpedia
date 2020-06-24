@@ -20,7 +20,8 @@ let scanRange = function (event) {
                         ReactDOM.render(e(rangeNotDetected, { info: passedRangeValidation.errorText }), document.getElementById('update-div'))
                     } else {
                         //if data is valid - it can be stored
-                        CT.detectedValidatedRange=[...array2D]
+                        CT.detectedValidatedRange.array=[...array2D]
+                        CT.detectedValidatedRange.json=array2DtoJSON(array2D)
                         ReactDOM.render(e(rangeDetected, {} ), document.getElementById('update-div'))
                     }
                 }
@@ -72,9 +73,12 @@ let validateRange = function (array2D) {
     }
 }
 //updates the knowledge base json based on provided array 2D and stores it
-let updateKnowledgeBase=function(array2D){
-    console.log(CT.detectedValidatedRange)
+let updateKnowledgeBase=async function(event){
+    console.log(CT.detectedValidatedRange.json)
+    let json = await sendRecieveJSONDataToServer(SERVER_URL, CT.detectedValidatedRange.json)
+    
 }
+
 //checks whether the provided 1D array contains headers which match the knowledge base headers
 //returns an object containing true or false and error text
 //- each header in array matches knowledge base headers 

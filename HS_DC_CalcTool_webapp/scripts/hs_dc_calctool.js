@@ -5,6 +5,7 @@ const logoURL = 'Images/logo.png';
 const headerURL = 'Images/headerTemplate.png';
 const headerSVG = 'Images/headerTemplate.svg';
 const pl = new PreLoader();
+const SERVER_URL = 'https://dcman.site';
 
 (async function () {
     try {
