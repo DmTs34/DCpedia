@@ -1,0 +1,30 @@
+[
+    {
+      "hover_X": 93,
+      "hover_Y": 156.5,
+      "hover_W": 22,
+      "hower_H": 5,
+      "data": [
+        {
+        "type":"application note",
+        "title":"Hands-on application note",
+        "short_desc":"Covers recomendation on how to install cable system",
+        "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en/?page=1"
+        }
+      ]
+    },
+    {
+        "hover_X": 93,
+        "hover_Y": 163.5,
+        "hover_W": 22,
+        "hower_H": 5,
+        "data": [
+            {
+            "type":"application note",
+            "title":"Hands-on application note 2",
+            "short_desc":"Covers recomendation on how to install cable trunks",
+            "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en/?page=1"
+            }
+        ]
+    }
+]
