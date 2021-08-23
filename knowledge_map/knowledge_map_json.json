@@ -1,9 +1,9 @@
 [
     {
-      "hover_X": 93,
-      "hover_Y": 156.5,
-      "hover_W": 22,
-      "hover_H": 5,
+      "hover_X": 20,
+      "hover_Y": 223,
+      "hover_W": 80,
+      "hover_H": 10,
       "data": [
         {
         "type":"application note",
@@ -14,8 +14,8 @@
       ]
     },
     {
-        "hover_X": 93,
-        "hover_Y": 163.5,
+        "hover_X": 150,
+        "hover_Y": -125,
         "hover_W": 22,
         "hover_H": 5,
         "data": [
