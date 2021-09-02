@@ -16,45 +16,23 @@
     },
     {
       "hover_text": "Explore data center knowledge base",
-      "hover_X": 133,
-      "hover_Y": 116,
-      "hover_W": 500,
-      "hover_H": 63,
+      "hover_X": 376,
+      "hover_Y": 427,
+      "hover_W": 364,
+      "hover_H": 328,
       "data": [
         {
-        "type":"application note",
-        "title":"Hands-on application note",
-        "short_desc":"Covers recomendation on how to install cable system",
-        "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en/?page=1"
-        }
+        "type":"catalog",
+        "title":"Data center solutions catalog",
+        "short_desc":"Full product catalog covering all data center related topics",
+        "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/DataCenterProductsEN"
+        },
+          {
+        "type":"brochure",
+        "title":"Data center solutions brochure",
+        "short_desc":"Data center portfolio at glance",
+        "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/data-center-solutions-brochure-en"
+          }
       ]
-    },
-    {
-        "hover_text": "Explore structured cabling system solutions",
-        "hover_X": 150,
-        "hover_Y": 250,
-        "hover_W": 220,
-        "hover_H": 54,
-        "data": [
-            {
-            "type":"application note",
-            "title":"Hands-on application note 2",
-            "short_desc":"Covers recomendation on how to install cable trunks",
-            "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en/?page=1"
-            }
-        ,
-        {
-            "type":"application note",
-            "title":"Hello Dmitry",
-            "short_desc":"Here is another app note",
-            "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en/?page=1"
-            },
-        {
-            "type":"application note",
-            "title":"Hello Dmitry T",
-            "short_desc":"Here is another app note 2",
-            "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en/?page=1"
-            }
-         ]
     }
 ]
