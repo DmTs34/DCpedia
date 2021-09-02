@@ -1,5 +1,6 @@
 [
     {
+      "hover_text": "Explore data center knowledge base",
       "hover_X": 133,
       "hover_Y": 116,
       "hover_W": 500,
@@ -14,10 +15,11 @@
       ]
     },
     {
+        "hover_text": "Explore structured cabling system solutions",
         "hover_X": 150,
         "hover_Y": 125,
-        "hover_W": 22,
-        "hover_H": 5,
+        "hover_W": 220,
+        "hover_H": 54,
         "data": [
             {
             "type":"application note",
