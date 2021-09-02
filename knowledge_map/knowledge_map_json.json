@@ -1,5 +1,20 @@
 [
     {
+      "hover_text": "Structured cabling in data center",
+      "hover_X": 352,
+      "hover_Y": 780,
+      "hover_W": 188,
+      "hover_H": 47,
+      "data": [
+        {
+        "type":"white paper",
+        "title":"Structured cabling in data center",
+        "short_desc":"Fundamentals of building structured cabling in the data center",
+        "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en"
+        }
+      ]
+    },
+    {
       "hover_text": "Explore data center knowledge base",
       "hover_X": 133,
       "hover_Y": 116,
