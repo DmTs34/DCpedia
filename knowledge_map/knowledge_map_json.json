@@ -34,5 +34,19 @@
         "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/data-center-solutions-brochure-en"
           }
       ]
+    },{
+      "hover_text": "Useful material for daily work",
+      "hover_X": 525,
+      "hover_Y": 1180,
+      "hover_W": 179,
+      "hover_H": 32,
+      "data": [
+        {
+        "type":"tool",
+        "title":"ODF LISA 1500 patching guide",
+        "short_desc":"The patching tool helps in maintaining ODF",
+        "URL":"https://odfpg.hubersuhner.com/"
+        }
+      ]
     }
 ]
