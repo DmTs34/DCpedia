@@ -27,6 +27,18 @@
             "short_desc":"Covers recomendation on how to install cable trunks",
             "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en/?page=1"
             }
-        ]
+        ],
+        {
+            "type":"application note",
+            "title":"Hello Dmitry",
+            "short_desc":"Here is another app note",
+            "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en/?page=1"
+            },
+        {
+            "type":"application note",
+            "title":"Hello Dmitry T",
+            "short_desc":"Here is another app note 2",
+            "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en/?page=1"
+            }
     }
 ]
