@@ -95,5 +95,29 @@
         "URL":"https://www.hubersuhner.com/"            
         }
       ]
+    },{
+      "hover_text": "Cleaning instructions",
+      "hover_X": 338,
+      "hover_Y": 1318,
+      "hover_W": 134,
+      "hover_H": 33,
+      "data": [
+        {
+        "type":"application_note",
+        "title":"Inspection of fiber optic connectors",
+        "short_desc":"Read this document about inspecting fiber-glass connectors carefully. For handling and working with cables and cable systems, we refer to the document General handling manual for cables and cable systems on our homepage. National and local safety regulations must be complied with. HUBER+SUHNER rejects any liability and claims if these provisions and regulations are not complied with. Cables and cable systems may only be tested and inspected by specialist personnel with appropriate training and experience. This document assumes this. ",
+        "URL":"https://www.hubersuhner.com/en/documents-repository/installation-manuals/gen-handling-insp-cleaning/inspection-of-fo-connectors.aspx"
+        },{
+        "type":"application_note",
+        "title":"Cleaning of fiber optic connectors",
+        "short_desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec mollis est, eu euismod nunc. Etiam luctus urna at dui tempor, sed ullamcorper nunc suscipit. Duis nunc felis, vestibulum a porta sed, blandit sed nisi. In semper arcu sit amet ultrices accumsan. In consectetur fringilla orci sit amet fringilla. Nullam.",
+        "URL":"https://www.hubersuhner.com/en/documents-repository/installation-manuals/gen-handling-insp-cleaning/cleaning-instruction-fo-connectors.aspx"            
+        },{
+        "type":"application_note",
+        "title":"User handling manual for cables and cable systems",
+        "short_desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec mollis est, eu euismod nunc. Etiam luctus urna at dui tempor, sed ullamcorper nunc suscipit. Duis nunc felis, vestibulum a porta sed, blandit sed nisi. In semper arcu sit amet ultrices accumsan. In consectetur fringilla orci sit amet fringilla. Nullam.",
+        "URL":"https://literature.hubersuhner.com/Technologies/Fiberoptics/user-handling-manual-for-cables-and-cable-systems-en"                        
+        }
+      ]
     }
 ]
