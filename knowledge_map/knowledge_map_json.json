@@ -62,5 +62,38 @@
         "URL":"https://www.hubersuhner.com/"
         }
       ]
+    },{
+      "hover_text": "GNSS over structured cabling",
+      "hover_X": 566
+      "hover_Y": 1449,
+      "hover_W": 106,
+      "hover_H": 33,
+      "data": [
+        {
+        "type":"application_note",
+        "title":"GNSS over fiber optic structured cabling",
+        "short_desc":"A structured cabling system within a data center can be used to effectively distribute Global Navigation Satellite System (GNSS) signals from antennas to end devices. This uses technologies which convert radio frequency (RF) to fiber optical (FO) signals, amplifies those signals and splits them for delivery to multiple end devices. With an active antenna, powered directly via optical fiber, a cost-effective and faulttolerant connection can be established when connected via the structured cabling system.",
+        "URL":"https://www.hubersuhner.com/"
+        }
+      ]
+    },{
+      "hover_text": "Transceiver types",
+      "hover_X": 566
+      "hover_Y": 1383,
+      "hover_W": 172,
+      "hover_H": 33,
+      "data": [
+        {
+        "type":"application_note",
+        "title":"Transceiver's lane assignments",
+        "short_desc":"Transceiver’s physical Interface is defined as the place where two systems meet or communicate physically. The design shapes of these systems should mutually complement each other for a proper channel establishment. Transceivers can have different connector types such as LC, SC, MPO etc. In this document lane assignments and matching physical interfaces that can be used in various transceivers are described. Knowledge of lane assignment is important when choosing matching structured cabling.",
+        "URL":"https://www.hubersuhner.com/"
+        },{
+        "type":"application_note",
+        "title":"Transceiver's overview",
+        "short_desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec mollis est, eu euismod nunc. Etiam luctus urna at dui tempor, sed ullamcorper nunc suscipit. Duis nunc felis, vestibulum a porta sed, blandit sed nisi. In semper arcu sit amet ultrices accumsan. In consectetur fringilla orci sit amet fringilla. Nullam.",
+        "URL":"https://www.hubersuhner.com/"            
+        }
+      ]
     }
 ]
