@@ -119,5 +119,19 @@
         "URL":"https://literature.hubersuhner.com/Technologies/Fiberoptics/user-handling-manual-for-cables-and-cable-systems-en"                        
         }
       ]
+    },{
+      "hover_text": "Color codes",
+      "hover_X": 169,
+      "hover_Y": 1031,
+      "hover_W": 164,
+      "hover_H": 33,
+      "data": [
+        {
+        "type":"application_note",
+        "title":"Color codes",
+        "short_desc":"Fiber optic color code for fibers, cables and connectors",
+        "URL":"https://www.hubersuhner.com/en/documents-repository/technologies/pdf/farbcode-karte-qr-code-en.aspx"
+        }
+      ]
     }
 ]
