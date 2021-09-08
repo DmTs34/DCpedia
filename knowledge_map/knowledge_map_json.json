@@ -64,7 +64,7 @@
       ]
     },{
       "hover_text": "GNSS over structured cabling",
-      "hover_X": 566
+      "hover_X": 566,
       "hover_Y": 1449,
       "hover_W": 106,
       "hover_H": 33,
@@ -78,7 +78,7 @@
       ]
     },{
       "hover_text": "Transceiver types",
-      "hover_X": 566
+      "hover_X": 566,
       "hover_Y": 1383,
       "hover_W": 172,
       "hover_H": 33,
