@@ -48,5 +48,19 @@
         "URL":"https://odfpg.hubersuhner.com/"
         }
       ]
+    },{
+      "hover_text": "Fundamentals and applications of all optical switching in data centers",
+      "hover_X": 866,
+      "hover_Y": 602,
+      "hover_W": 194,
+      "hover_H": 33,
+      "data": [
+        {
+        "type":"white_paper",
+        "title":"All Optical Switching. Basics, benefits and concepts",
+        "short_desc":"Fundamentals and applications of all optical switching in data centers",
+        "URL":"https://www.hubersuhner.com/"
+        }
+      ]
     }
 ]
