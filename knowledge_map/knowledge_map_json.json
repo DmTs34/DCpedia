@@ -1,25 +1,25 @@
 [
     {
       "hover_text": "Structured cabling in data center",
-      "hover_X": 352,
-      "hover_Y": 780,
-      "hover_W": 188,
-      "hover_H": 47,
+      "hover_X": 376,
+      "hover_Y": 783,
+      "hover_W": 197,
+      "hover_H": 33,
       "data": [
         {
         "type":"document",
         "title":"Structured cabling in data center",
-        "short_desc":"Fundamentals of structured cabling in the data center",
+        "short_desc":"White paper covering fundamentals of structured cabling in the data center",
         "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en"
         }
       ]
     },
     {
-      "hover_text": "Explore data center knowledge base",
+      "hover_text": "Data center solutions",
       "hover_X": 376,
-      "hover_Y": 427,
-      "hover_W": 364,
-      "hover_H": 328,
+      "hover_Y": 442,
+      "hover_W": 352,
+      "hover_H": 313,
       "data": [
         {
         "type":"document",
@@ -36,10 +36,10 @@
       ]
     },{
       "hover_text": "Useful material for daily work",
-      "hover_X": 525,
-      "hover_Y": 1180,
-      "hover_W": 179,
-      "hover_H": 32,
+      "hover_X": 296,
+      "hover_Y": 1383,
+      "hover_W": 164,
+      "hover_H": 33,
       "data": [
         {
         "type":"link",
@@ -52,7 +52,7 @@
       "hover_text": "Fundamentals and applications of all optical switching in data centers",
       "hover_X": 866,
       "hover_Y": 602,
-      "hover_W": 194,
+      "hover_W": 197,
       "hover_H": 33,
       "data": [
         {
@@ -65,8 +65,8 @@
     },{
       "hover_text": "GNSS over structured cabling",
       "hover_X": 566,
-      "hover_Y": 1449,
-      "hover_W": 106,
+      "hover_Y": 1416,
+      "hover_W": 164,
       "hover_H": 33,
       "data": [
         {
@@ -80,7 +80,7 @@
       "hover_text": "Transceiver types",
       "hover_X": 566,
       "hover_Y": 1383,
-      "hover_W": 172,
+      "hover_W": 164,
       "hover_H": 33,
       "data": [
         {
@@ -102,9 +102,9 @@
       ]
     },{
       "hover_text": "Cleaning instructions",
-      "hover_X": 338,
-      "hover_Y": 1318,
-      "hover_W": 134,
+      "hover_X": 296,
+      "hover_Y": 1283,
+      "hover_W": 164,
       "hover_H": 33,
       "data": [
         {
@@ -126,8 +126,8 @@
       ]
     },{
       "hover_text": "Color codes",
-      "hover_X": 169,
-      "hover_Y": 1031,
+      "hover_X": 127,
+      "hover_Y": 1043,
       "hover_W": 164,
       "hover_H": 33,
       "data": [
