@@ -7,7 +7,7 @@
       "hover_H": 47,
       "data": [
         {
-        "type":"white_paper",
+        "type":"document",
         "title":"Structured cabling in data center",
         "short_desc":"Fundamentals of structured cabling in the data center",
         "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/white-paper-structured-cabling-en"
@@ -22,13 +22,13 @@
       "hover_H": 328,
       "data": [
         {
-        "type":"catalog",
+        "type":"document",
         "title":"Data center solutions catalog",
         "short_desc":"Full product catalog covering all data center related topics",
         "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/DataCenterProductsEN"
         },
           {
-        "type":"solution_brochure",
+        "type":"document",
         "title":"Data center solutions brochure",
         "short_desc":"Data center portfolio at glance",
         "URL":"https://literature.hubersuhner.com/Marketsegments/Communication/data-center-solutions-brochure-en"
@@ -42,7 +42,7 @@
       "hover_H": 32,
       "data": [
         {
-        "type":"tool",
+        "type":"link",
         "title":"ODF LISA 1500 patching guide",
         "short_desc":"The patching tool helps in maintaining ODF",
         "URL":"https://odfpg.hubersuhner.com/"
@@ -56,7 +56,7 @@
       "hover_H": 33,
       "data": [
         {
-        "type":"white_paper",
+        "type":"document",
         "title":"All Optical Switching. Basics, benefits and concepts",
         "short_desc":"Fundamentals and applications of all optical switching in data centers",
         "URL":"https://www.hubersuhner.com/"
@@ -70,7 +70,7 @@
       "hover_H": 33,
       "data": [
         {
-        "type":"application_note",
+        "type":"document",
         "title":"GNSS over fiber optic structured cabling",
         "short_desc":"A structured cabling system within a data center can be used to effectively distribute Global Navigation Satellite System (GNSS) signals from antennas to end devices. This uses technologies which convert radio frequency (RF) to fiber optical (FO) signals, amplifies those signals and splits them for delivery to multiple end devices. With an active antenna, powered directly via optical fiber, a cost-effective and faulttolerant connection can be established when connected via the structured cabling system.",
         "URL":"https://www.hubersuhner.com/"
@@ -84,15 +84,20 @@
       "hover_H": 33,
       "data": [
         {
-        "type":"application_note",
+        "type":"document",
         "title":"Transceiver's lane assignments",
         "short_desc":"Transceiver’s physical Interface is defined as the place where two systems meet or communicate physically. The design shapes of these systems should mutually complement each other for a proper channel establishment. Transceivers can have different connector types such as LC, SC, MPO etc. In this document lane assignments and matching physical interfaces that can be used in various transceivers are described. Knowledge of lane assignment is important when choosing matching structured cabling.",
         "URL":"https://www.hubersuhner.com/"
         },{
-        "type":"application_note",
+        "type":"document",
         "title":"Transceiver's overview",
         "short_desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec mollis est, eu euismod nunc. Etiam luctus urna at dui tempor, sed ullamcorper nunc suscipit. Duis nunc felis, vestibulum a porta sed, blandit sed nisi. In semper arcu sit amet ultrices accumsan. In consectetur fringilla orci sit amet fringilla. Nullam.",
         "URL":"https://www.hubersuhner.com/"            
+        },{
+        "type":"link",
+        "title":"Transceiver's lane assignment images",
+        "short_desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec mollis est, eu euismod nunc. Etiam luctus urna at dui tempor, sed ullamcorper nunc suscipit. Duis nunc felis, vestibulum a porta sed, blandit sed nisi. In semper arcu sit amet ultrices accumsan. In consectetur fringilla orci sit amet fringilla. Nullam.",
+        "URL":"https://www.hubersuhner.com/" 
         }
       ]
     },{
@@ -103,17 +108,17 @@
       "hover_H": 33,
       "data": [
         {
-        "type":"application_note",
+        "type":"link",
         "title":"Inspection of fiber optic connectors",
         "short_desc":"Read this document about inspecting fiber-glass connectors carefully. For handling and working with cables and cable systems, we refer to the document General handling manual for cables and cable systems on our homepage. National and local safety regulations must be complied with. HUBER+SUHNER rejects any liability and claims if these provisions and regulations are not complied with. Cables and cable systems may only be tested and inspected by specialist personnel with appropriate training and experience. This document assumes this. ",
         "URL":"https://www.hubersuhner.com/en/documents-repository/installation-manuals/gen-handling-insp-cleaning/inspection-of-fo-connectors.aspx"
         },{
-        "type":"application_note",
+        "type":"link",
         "title":"Cleaning of fiber optic connectors",
         "short_desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec mollis est, eu euismod nunc. Etiam luctus urna at dui tempor, sed ullamcorper nunc suscipit. Duis nunc felis, vestibulum a porta sed, blandit sed nisi. In semper arcu sit amet ultrices accumsan. In consectetur fringilla orci sit amet fringilla. Nullam.",
         "URL":"https://www.hubersuhner.com/en/documents-repository/installation-manuals/gen-handling-insp-cleaning/cleaning-instruction-fo-connectors.aspx"            
         },{
-        "type":"application_note",
+        "type":"document",
         "title":"User handling manual for cables and cable systems",
         "short_desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec mollis est, eu euismod nunc. Etiam luctus urna at dui tempor, sed ullamcorper nunc suscipit. Duis nunc felis, vestibulum a porta sed, blandit sed nisi. In semper arcu sit amet ultrices accumsan. In consectetur fringilla orci sit amet fringilla. Nullam.",
         "URL":"https://literature.hubersuhner.com/Technologies/Fiberoptics/user-handling-manual-for-cables-and-cable-systems-en"                        
@@ -127,7 +132,7 @@
       "hover_H": 33,
       "data": [
         {
-        "type":"application_note",
+        "type":"document",
         "title":"Color codes",
         "short_desc":"Fiber optic color code for fibers, cables and connectors",
         "URL":"https://www.hubersuhner.com/en/documents-repository/technologies/pdf/farbcode-karte-qr-code-en.aspx"
