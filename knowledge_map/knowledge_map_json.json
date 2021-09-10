@@ -78,7 +78,7 @@
         "type":"document",
         "title":"GNSS over fiber optic structured cabling",
         "short_desc":"A structured cabling system within a data center can be used to effectively distribute Global Navigation Satellite System (GNSS) signals from antennas to end devices. This uses technologies which convert radio frequency (RF) to fiber optical (FO) signals, amplifies those signals and splits them for delivery to multiple end devices. With an active antenna, powered directly via optical fiber, a cost-effective and faulttolerant connection can be established when connected via the structured cabling system.",
-        "URL":"https://www.hubersuhner.com/"
+        "URL":"https://hubersuhner.sharepoint.com/:b:/t/FO-FDCDataCenterMarketingPlan/EUdu0vZZSWJFseuGuoEcogcBZwe8Y8Z238YTR-QjaU8EAg?e=4Ed3OA"
         }
       ]
     },{
@@ -93,7 +93,7 @@
         "type":"document",
         "title":"Transceiver's lane assignments",
         "short_desc":"Transceiver’s physical Interface is defined as the place where two systems meet or communicate physically. The design shapes of these systems should mutually complement each other for a proper channel establishment. Transceivers can have different connector types such as LC, SC, MPO etc. In this document lane assignments and matching physical interfaces that can be used in various transceivers are described. Knowledge of lane assignment is important when choosing matching structured cabling.",
-        "URL":"https://www.hubersuhner.com/"
+        "URL":"https://hubersuhner.sharepoint.com/:b:/t/FO-FDCDataCenterMarketingPlan/ERwcDxa0fvVHp6ugSFu2GBgBTOugoEx8HQ6e4YTZC6uR4A?e=Vx33lq"
         },{
         "type":"document",
         "title":"Transceiver's overview",
