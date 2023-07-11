@@ -252,7 +252,7 @@ function runCDR1500() {
               rect2.click(function (event) {
                 setChassis(event.srcElement.id.slice(obj.config.shapeName.length + 6));
               });
-              rect.append(Snap.parse('<title>Unit ' + (48 - i) + ' left, rack ' + q + '</title>'));
+              rect.append(Snap.parse('<title>Unit ' + (48 - i) + ' left, rack ' + q + ': '+ (48-i)*2 + (48-i)*2-1 '</title>'));
               rect2.append(Snap.parse('<title>Unit ' + (48 - i) + ' right, rack ' + q + '</title>'));
 
             };
