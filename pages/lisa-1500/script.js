@@ -238,13 +238,13 @@ function runCDR1500() {
               g3.text(
                 x1 + 5,
                 y + 14 - (47 - i) * heightU,
-                (obj.config.numberRacks === 1) ? ('L' + (48 - i) + ': '+((48-i)*2-1)+','+(48-i)*2) : ("L" + q + '_' + (48 - i))
+                (obj.config.numberRacks === 1) ? ('L' + (48 - i)) : ("L" + q + '_' + (48 - i))
               ).attr({ class: "Legend3", fontSize: '14px', opacity: show })
               let rect2 = g3.rect(x2, y - (47 - i) * heightU, w, heightU, 3).attr({ id: obj.config.shapeName + '-unit-R' + q + '_' + (48 - i), fill: colors[1], stroke: "white", opacity: show, cursor: (show !== 0) ? ('pointer') : ('default') });
               g3.text(
-                x2 + 110,
+                x2 + 140,
                 y + 14 - (47 - i) * heightU,
-                (obj.config.numberRacks === 1) ? ('R' + (48 - i)+ ': '+((48-i)*2-1)+','+(48-i)*2) : ("R" + q + '_' + (48 - i))
+                (obj.config.numberRacks === 1) ? ('R' + (48 - i)) : ("R" + q + '_' + (48 - i))
               ).attr({ class: "Legend3", fontSize: '14px', opacity: show })
               rect.click(function (event) {
                 setChassis(event.srcElement.id.slice(obj.config.shapeName.length + 6));
