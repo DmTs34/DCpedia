@@ -1,5 +1,5 @@
 
-var imagesPath = "../LinkWizard/images/";
+var imagesPath = "../images/";
 var images = [
   "001-PL00-LC_LC-Du_Du-00_00.png",
   "001-PL00-MT_LC-Pa_Du-00_00.png",
@@ -80,7 +80,7 @@ var jsonData = {
   transceiverA: "00_00_00_000",
   transceiverB: "00_00_00_000",
   permanentlink: "00_00_000_000",
-  variantPL:"001",
+  patchcordvariant: "001",
   portextension: "00_00_000_000",
   patchA: [],
   patchB: [],
@@ -151,7 +151,7 @@ function showForms(formarray) {
 function buildMenuLinkType() {
   if (jsonData.topology === "000") {
     showForm("dropdownTopology");
-    hideForms(["dropdownLinktype", "dropdownSides", "dropdownPortextension", "dropdownPermanentlink","dropdownPermanentlinkVariant"]);
+    hideForms(["dropdownLinktype", "dropdownSides", "dropdownPortextension", "dropdownPermanentlink", "dropdownpatchcordvariant"]);
     addOptions("dropdownTopology", jsonData.topologyKeys)
   } else if (jsonData.topology === "001") {
     //showForms(["dropdownLinktype"]);addOptions("dropdownLinktype", [["PL00", "Permanent link"]], jsonData.linktype);
@@ -206,7 +206,7 @@ function buildMenuSides() {
 }
 //logic for permanent link and port extension
 function buildMenuLinks() {
-  hideForms([["dropdownPermanentlink"], ["dropdownPortextension"]])
+  hideForms([["dropdownPermanentlink"], ["dropdownPortextension"],["dropdownpatchcordvariant"]])
   if (jsonData.linktype === "IC00" || jsonData.linktype === "CC00") {
     buildMenuPermanentLink();
   } else if (jsonData.linktype === "PL00" && jsonData.sides !== "00_00") {
@@ -220,7 +220,9 @@ function buildMenuPermanentLink() {
   if (jsonData.linktype !== "PE00") {
     if (jsonData.sides !== "00_00" && jsonData.topology !== "PE00") { showForms(["dropdownPermanentlink"]); }
     //only if there is this type of permanent link in IC00 then can be two variants
-    if ((jsonData.permanentlink === "Pa_Du_24f_mtp" || jsonData.permanentlink === "Pa_Du_48f_mtp") && jsonData.linktype === "IC00"){showForms(["dropdownPermanentlinkVariant"])}else{hideForms(["dropdownPermanentlinkVariant"])}
+    if ((jsonData.permanentlink === "Pa_Du_24f_mtp" || jsonData.permanentlink === "Pa_Du_48f_mtp") && jsonData.linktype === "IC00") {
+      showForms(["dropdownpatchcordvariant"])
+    } else { hideForms(["dropdownpatchcordvariant"]) }
     switch (true) {
       case (jsonData.sides === "Du_Du" || jsonData.sides === "LC_LC"):
         addOptions("dropdownPermanentlink", [
@@ -237,7 +239,7 @@ function buildMenuPermanentLink() {
         ], jsonData.permanentlink);
 
         break;
-        
+
       case ((jsonData.sides === "Pa_Du" && jsonData.linktype === "IC00") || (jsonData.sides === "MT_LC" && jsonData.linktype === "PL00")):
         addOptions("dropdownPermanentlink", [
           ["Pa_Du_000_000", "Choose permanent link..."],
@@ -245,12 +247,12 @@ function buildMenuPermanentLink() {
           ["Pa_Du_48f_mtp", "6x MPO to 24x LCd ports plug-and-go"]
         ], jsonData.permanentlink);
         //in inter-connect there are variants
-        addOptions("dropdownPermanentlinkVariant", [
+        addOptions("dropdownpatchcordvariant", [
           ["001", "Variant 1"],
           ["002", "Variant 2"]
         ], "001");
         break;
-        
+
       case ((jsonData.sides === "Pa_Du" || jsonData.sides === "MT_LC") && jsonData.linktype === "CC00"):
         addOptions("dropdownPermanentlink", [
           ["00_00_000_000", "Choose permanent link..."],
@@ -378,8 +380,8 @@ function selectEvent(tag) {
       jsonData.permanentlink = tag.value
       buildMenuPermanentLink();
       break;
-    case "dropdownPermanentlinkVariant":
-      console.log(tag.value+" clicked")
+    case "dropdownpatchcordvariant":
+      jsonData.patchcordvariant = tag.value
       break;
     case "dropdownPortextension":
       jsonData.portextension = tag.value
@@ -479,17 +481,18 @@ function changeChannelImage(code) {
     changePicture(layer4, "pc-left-Du_Du_AB.png")
   }
   //pc-left-Pa_Pa_A
-  if (jsonData.linktype === "IC00" && jsonData.sides === "Pa_Du" && permanentlink !== "000_000") {
+  if (jsonData.linktype === "IC00" && jsonData.sides === "Pa_Du" && permanentlink !== "000_000" && jsonData.patchcordvariant === "001") {
     changePicture(layer4, "pc-left-Pa_Pa_A.png")
   }
   //pc-left-Pa_Pa_B
-  if ((jsonData.linktype === "IC00" && jsonData.sides === "Pa_Pa" && permanentlink !== "000_000")) {
+  if ((jsonData.linktype === "IC00" && jsonData.sides === "Pa_Pa" && permanentlink !== "000_000") ||
+    (jsonData.linktype === "IC00" && jsonData.sides === "Pa_Du" && permanentlink !== "000_000" && jsonData.patchcordvariant === "002")) {
     changePicture(layer4, "pc-left-Pa_Pa_B.png")
   }
   //-----logic for layer 5  - patch cord right
   //pc-right1-Du_Du_AB
   if (
-    (jsonData.linktype === "IC00" && jsonData.sides === "Du_Du" && permanentlink.substring(0, 2) === "12") || 
+    (jsonData.linktype === "IC00" && jsonData.sides === "Du_Du" && permanentlink.substring(0, 2) === "12") ||
     (jsonData.linktype === "IC00" && jsonData.sides === "Du_Du" && permanentlink.substring(4, 7) === "pat") ||
     (jsonData.linktype === "CC00" && jsonData.sides === "Du_Du" && permanentlink.substring(0, 2) === "12" && portextension !== "000_000") ||
     (jsonData.linktype === "CC00" && jsonData.sides === "Pa_Du" && jsonData.portextension.substring(0, 5) === "Pa_Du" && permanentlink.substring(0, 2) === "12" && portextension !== "000_000")) {
@@ -498,7 +501,7 @@ function changeChannelImage(code) {
   console.log(permanentlink.substring(4, 7))
   //pc-right2-Du_Du_AB
   if (
-    (jsonData.linktype === "IC00" && jsonData.sides === "Du_Du" && permanentlink.substring(0, 2) !== "12" && permanentlink.substring(4, 7) !== "pat"&& permanentlink !== "000_000") || 
+    (jsonData.linktype === "IC00" && jsonData.sides === "Du_Du" && permanentlink.substring(0, 2) !== "12" && permanentlink.substring(4, 7) !== "pat" && permanentlink !== "000_000") ||
     (jsonData.linktype === "IC00" && jsonData.sides === "Pa_Du" && permanentlink !== "000_000") ||
     (jsonData.linktype === "CC00" && jsonData.sides === "Du_Du" && permanentlink.substring(0, 2) !== "12" && portextension !== "000_000") ||
     (jsonData.linktype === "CC00" && jsonData.sides === "Pa_Du" && jsonData.portextension.substring(0, 5) === "Pa_Du" && permanentlink.substring(0, 2) !== "12" && portextension !== "000_000")) {
@@ -512,7 +515,9 @@ function changeChannelImage(code) {
   }
   //pc-right1-Du_Du_AA
   //pc-right2-Du_Du_AA
-
+  if (jsonData.linktype === "IC00" && jsonData.sides === "Pa_Du" && permanentlink !== "000_000" && jsonData.patchcordvariant === "002") {
+  changePicture(layer5, "pc-right2-Du_Du_AA.png")
+}
 
   //----logic for layer 6
   //cable in DC scenario
