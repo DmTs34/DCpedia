@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wizard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://www.hubersuhner.com/Sprinx/css/main.min.css?v=2018-08-28"> -->
+  <link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+  <link href="favicon.ico" type="image/x-icon" rel="icon">
+</head>
+
+<body>
+  <div id="tool" style="opacity:0">
+    <div style="display:flex; height:350px">
+      <div id="select1" style="flex:1">
+        <div class="select-container"><label class="paragraph1">Describe your application</label></div>
+        <div class="select-container"><label class="paragraph2" id="dropdownTopology-label">Topology</label><select
+            id="dropdownTopology" oninput="selectEvent(this)"></select></div>
+        <div class="select-container"><label class="paragraph2" id="dropdownLinktype-label">Link type</label><select
+            id="dropdownLinktype" oninput="selectEvent(this)"></select></div>
+        <div class="select-container"><label class="paragraph2" id="dropdownSides-label">Side A to B</label><select
+            id="dropdownSides" oninput="selectEvent(this)"></select></div>
+        <div class="select-container">
+          <label class="paragraph2" id="dropdownPermanentlink-label">Permanent link</label>
+          <select id="dropdownPermanentlink" oninput="selectEvent(this)"></select>
+          <label class="paragraph2" id="dropdownPermanentlinkVariant-label">Variant</label>
+          <select id="dropdownPermanentlinkVariant" oninput="selectEvent(this)"></select>
+        </div>
+        <div class="select-container"><label class="paragraph2" id="dropdownPortextension-label">Port
+            extension</label><select id="dropdownPortextension" oninput="selectEvent(this)"></select></div>
+      </div>
+      <div id="application" style="flex:1">
+        <p id="application-header" class="paragraph1" style="display: none">This is your application scheme</p>
+        <img id="application-image" style="display: none" />
+      </div>
+    </div>
+    <div id="channel" style="position:relative">
+      <p id="channel-header" class="paragraph1" style="display: block">This is your optical channel physical
+        implementation</p>
+      <img class="channel-image" id="channel-layer1" />
+      <img class="channel-image" id="channel-layer2" />
+      <img class="channel-image" id="channel-layer3" />
+      <img class="channel-image" id="channel-layer4" />
+      <img class="channel-image" id="channel-layer5" />
+      <img class="channel-image" id="channel-layer6" />
+    </div>
+
+    <div class="input container" style="display:none">
+      <input type="text" id="rackA" value="Rack A">
+      <input type="text" id="rackB" value="Rack B">
+      <input type="text" id="lengthPE" placeholder="Length" value="20">
+      <input type="text" id="lengthPL" placeholder="Length" value="20">
+      <input type="radio" id="fibertypeMM" name="fibertypes" value="option1" checked>
+      <label for="option1">Multimode OM4 </label>
+      <input type="radio" id="fibertypeSM" name="fibertypes" value="option2">
+      <label for="option2">Singlemode</label>
+    </div>
+    <div class="link-picture">
+
+    </div>
+  </div>
+  <script src='script.js'></script>
+  <!-- GDPR -->
+  <!-- <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/6937eb0223e9a0037110d23c11588747.js"></script> -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127395981-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127395981-1');
+</script> -->
+</body>
+
+</html>
