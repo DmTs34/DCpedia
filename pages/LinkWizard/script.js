@@ -1,5 +1,5 @@
 
-var imagesPath = "../images/";
+var imagesPath = "../LinkWizard/images/";
 var images = [
   "001-PL00-LC_LC-Du_Du-00_00.png",
   "001-PL00-MT_LC-Pa_Du-00_00.png",
