@@ -3,8 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Wizard</title>
+  <title>White space portfolio link builder</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta property="og:title" content="Page Title">
+  <meta property="og:description" content="Link builder wizard">
+  <meta property="og:image" content="/images/dimi30happy.png">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:type" content="website"> -->
   <link rel="stylesheet" href="style.css">
   <!-- <link rel="stylesheet" href="https://www.hubersuhner.com/Sprinx/css/main.min.css?v=2018-08-28"> -->
   <link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
@@ -12,56 +17,457 @@
 </head>
 
 <body>
-  <div id="tool" style="opacity:0">
-    <div style="display:flex; height:350px">
-      <div id="select1" style="flex:1">
-        <div class="select-container"><label class="paragraph1">Describe your application</label></div>
-        <div class="select-container"><label class="paragraph2" id="dropdownTopology-label">Topology</label><select
-            id="dropdownTopology" oninput="selectEvent(this)"></select></div>
-        <div class="select-container"><label class="paragraph2" id="dropdownLinktype-label">Link type</label><select
-            id="dropdownLinktype" oninput="selectEvent(this)"></select></div>
-        <div class="select-container"><label class="paragraph2" id="dropdownSides-label">Side A to B</label><select
-            id="dropdownSides" oninput="selectEvent(this)"></select></div>
-        <div class="select-container">
-          <label class="paragraph2" id="dropdownPermanentlink-label">Permanent link</label>
-          <select id="dropdownPermanentlink" oninput="selectEvent(this)"></select>
-          <label class="paragraph2" id="dropdownpatchcordvariant-label">Variant</label>
-          <select id="dropdownpatchcordvariant" oninput="selectEvent(this)"></select>
+  <div id="fullscreenDiv" class="fullscreenDiv"><img id="fullscreenImg" class="fullscreenImg" /></div>
+  <div id="popup"></div>
+  <section class="wizard" id="wizard">
+    <div class="table" id="table">
+      <!--preloader-->
+      <div class="message" id="preloader" style="background-color: transparent;">
+        <img src="/images/dimi30happy.png" alt="preloader" class="preloaderImg">
+      </div>
+    <!--preloader-->
+      <div class="wRow" id="row0-1">
+        <div class="wCell avatar"></div>
+        <div class="wCell">
+          <div class="message">Let's start</div>
         </div>
-        <div class="select-container"><label class="paragraph2" id="dropdownPortextension-label">Port
-            extension</label><select id="dropdownPortextension" oninput="selectEvent(this)"></select></div>
       </div>
-      <div id="application" style="flex:1">
-        <p id="application-header" class="paragraph1" style="display: none">This is your application scheme</p>
-        <img id="application-image" style="display: none" />
+      <div class="wRow" id="row0-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">You can always press "Again" to start again</div>
+        </div>
+      </div>
+      <div class="wRow" id="row0-3">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><button class="wButton" id="start" onclick="selectEvent(this)">Understood? Let's
+              go</button></div>
+        </div>
+      </div>
+      <div class="wRow" id="again">
+        <div class="wCell pin"></div>
+        <div class="wCell">
+          <div class="action"><button class="wButton" id="startAgain" onclick="selectEvent(this)">Again</button></div>
+        </div>
+      </div>
+      <div class="wRow" id="query">
+        <div class="wCell pin"></div>
+        <div class="wCell">
+          <div class="message" id="choice">Your selection: </div>
+        </div>
+      </div>
+      <div class="wRow" id="row1-1">
+        <div class="wCell avatar"></div>
+        <div class="wCell">
+          <div class="message" id="choice">First of all, choose your application</div>
+        </div>
+      </div>
+      <div class="wRow" id="row1-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Just to remind...</div>
+        </div>
+      </div>
+      <div class="wRow" id="row1-3">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Permanent link - is when you do not know end equipment and need some fiber between
+            racks</div>
+        </div>
+      </div>
+      <div class="wRow" id="row1-4">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Switch to server - When you connect switch to a server</div>
+        </div>
+      </div>
+      <div class="wRow" id="row1-5">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Switch to switch - When you connect two switches</div>
+        </div>
+      </div>
+      <div class="wRow" id="row1-6">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Port extension (only switch) when you just need to add patch panel to cable up your
+            switch</div>
+        </div>
+      </div>
+      <div class="wRow" id="row1-7">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><select class="wButton" id="dropdownTopology" oninput="selectEvent(this)"></select></div>
+        </div>
+      </div>
+      <div class="wRow" id="row2-1">
+        <div class="wCell avatar"></div>
+        <div class="wCell">
+          <div class="message">Now you need to specify link type</div>
+        </div>
+      </div>
+      <div class="wRow" id="row2-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">What is that 🤔❓</div>
+        </div>
+      </div>
+      <div class="wRow" id="row2-3">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><select class="wButton" id="dropdownLinktype" oninput="selectEvent(this)"></select></div>
+        </div>
+      </div>
+      <div class="wRow" id="row3-1">
+        <div class="wCell avatar"></div>
+        <div class="wCell">
+          <div class="message">Choose what will you have on side A and B</div>
+        </div>
+      </div>
+      <div class="wRow" id="row3-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><select class="wButton" id="dropdownSides" oninput="selectEvent(this)"></select></div>
+        </div>
+      </div>
+      <div class="wRow" id="application0-1">
+        <div class="wCell pin"></div>
+        <div class="wCell">
+          <div class="message">This is your application scheme.<br>Click on it to enlarge and click again to close.
+          </div>
+        </div>
+      </div>
+      <div class="wRow" id="application0-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message"><canvas id="appCanvas" class="canvasImg"></canvas></div>
+        </div>
+      </div>
+      <div class="wRow" id="step1-1">
+        <div class="wCell happy"></div>
+        <div class="wCell">
+          <div class="message">Congratulations! First step done!</div>
+        </div>
+      </div>
+      <div class="wRow" id="step1-2">
+        <div class="wCell "></div>
+        <div class="wCell">
+          <div class="reply"><button class="wButton" id="step1Done" onclick="selectEvent(this)">Move
+              ahead!</button></div>
+        </div>
+      </div>
+      <div class="wRow" id="row4-1">
+        <div class="wCell avatar"></div>
+        <div class="wCell">
+          <div class="message">Lets choose fiber type now</div>
+        </div>
+      </div>
+      <div class="wRow" id="row4-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">What is fiber 🤔❓</div>
+        </div>
+      </div>
+      <div class="wRow" id="row4-3">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><button class="wButton" id="MM" onclick="selectEvent(this)">Multimode</button></div>
+        </div>
+      </div>
+      <div class="wRow" id="row4-4">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><button class="wButton" id="SM" onclick="selectEvent(this)">Singlemode</button></div>
+        </div>
+      </div>
+      <div class="wRow" id="row5-1">
+        <div class="wCell avatar"></div>
+        <div class="wCell">
+          <div class="message">Choose one of permanent links</div>
+        </div>
+      </div>
+      <div class="wRow" id="row5-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><select class="wButton" id="dropdownPermanentlink" oninput="selectEvent(this)"></select>
+          </div>
+        </div>
+      </div>
+      <div class="wRow" id="row6-1">
+        <div class="wCell avatar"></div>
+        <div class="wCell">
+          <div class="message">Let's choose now port extension</div>
+        </div>
+      </div>
+      <div class="wRow" id="row6-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><select class="wButton" id="dropdownPortextension" oninput="selectEvent(this)"></select>
+          </div>
+        </div>
+      </div>
+      <div class="wRow" id="step2-1">
+        <div class="wCell happy"></div>
+        <div class="wCell">
+          <div class="message">Wow! You are almost finished!</div>
+        </div>
+      </div>
+      <div class="wRow" id="step2-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">I know your application and your physical implementation.</div>
+        </div>
+      </div>
+      <div class="wRow" id="step2-3">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Lets specify more details and i will be able to suggest you material list</div>
+        </div>
+      </div>
+      <div class="wRow" id="step2-4">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><button class="wButton" id="step2Done" onclick="selectEvent(this)">Move
+              ahead!</button></div>
+        </div>
+      </div>
+      <div class="wRow" id="channel1-1">
+        <div class="wCell pin"></div>
+        <div class="wCell">
+          <div class="message">Your optical channel physical implementation drawings</div>
+        </div>
+      </div>
+      <div class="wRow" id="channel1-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message"><canvas id="chCanvas1" class="canvasImg"></canvas></div>
+        </div>
+      </div>
+      <div class="wRow" id="channel2-1">
+        <div class="wCell pin"></div>
+        <div class="wCell">
+          <div class="message">There is alternative version using the same material list</div>
+        </div>
+      </div>
+      <div class="wRow" id="channel2-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message"><canvas id="chCanvas2" class="canvasImg"></canvas></div>
+        </div>
+      </div>
+      <div class="wRow" id="row7-1">
+        <div class="wCell avatar"></div>
+        <div class="wCell">
+          <div class="message">You can provide labels or names of your racks on side A and B if you want, so that will
+            be
+            easy to reference it.</div>
+        </div>
+      </div>
+
+      <div class="wRow" id="row7-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><input class="wButton" type="text" id="rackA" value="Rack A" onchange="selectEvent(this)"
+              maxlength="30"></div>
+        </div>
+      </div>
+      <div class="wRow" id="row7-3">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"> <input class="wButton" type="text" id="rackB" value="Rack B" onchange="selectEvent(this)"
+              maxlength="30"></div>
+        </div>
+      </div>
+      <div class="wRow" id="row7-4">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Or just press "Go ahead" if you dont' want to bother.</div>
+        </div>
+      </div>
+      <div class="wRow" id="row7-5">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><button class="wButton" id="rackNames" onclick="selectEvent(this)">Go ahead</button></div>
+        </div>
+      </div>
+      <div class="wRow" id="row8-1">
+        <div class="wCell avatar"></div>
+        <div class="wCell">
+          <div class="message">Now let's choose some cable lengths.</div>
+        </div>
+      </div>
+      <div class="wRow" id="selectPL-1">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Choose permanent link length.</div>
+        </div>
+      </div>
+      <div class="wRow" id="selectPL-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply" id="buttonsPL"></div>
+        </div>
+      </div>
+      <div class="wRow" id="selectPL-3">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Don't worry, if you need other cable lengths, we will be able to provide them too</div>
+        </div>
+      </div>
+      <div class="wRow" id="selectPE-1">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Choose port extension link length</div>
+        </div>
+      </div>
+      <div class="wRow" id="selectPE-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply" id="buttonsPE"></div>
+        </div>
+      </div>
+      <div class="wRow" id="selectPE-3">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Don't worry, if you need other cable lengths, we will be able to provide them too</div>
+        </div>
+      </div>
+      <div class="wRow" id="selectDC-1">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Choose direct-connect link length</div>
+        </div>
+      </div>
+      <div class="wRow" id="selectDC-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply" id="buttonsDC"></div>
+        </div>
+      </div>
+      <div class="wRow" id="selectDC-3">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Don't worry, if you need other cable lengths, we will be able to provide them too</div>
+        </div>
+      </div>
+      <div class="wRow" id="row9-1">
+        <div class="wCell avatar"></div>
+        <div class="wCell">
+          <div class="message">I can include transceivers to the BOM if you want</div>
+        </div>
+      </div>
+      <div class="wRow" id="row9-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Choose one from below</div>
+        </div>
+      </div>
+      <div class="wRow" id="row9-3">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply">
+            <div id="transceiverButtons"></div>
+          </div>
+        </div>
+      </div>
+      <div class="wRow" id="row9-4">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">If you cannot see the transceiver that you need, check our transceiver portfolio</div>
+        </div>
+      </div>
+      <div class="wRow" id="row9-5">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">If you don't need transceivers just press "Go ahead"</div>
+        </div>
+      </div>
+      <div class="wRow" id="row9-6">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><button class="wButton" id="transceiver" onclick="selectEvent(this)">Go ahead</button>
+          </div>
+        </div>
+      </div>
+      <div class="wRow" id="step3-1">
+        <div class="wCell happy"></div>
+        <div class="wCell">
+          <div class="message">Congrats. See my proposal below for your structured cabling</div>
+        </div>
+      </div>
+      <div class="wRow" id="step3-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">If you are using excel Link Wizard, you can get the quote!</div>
+        </div>
+      </div>
+      <div class="wRow" id="step3-3">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message">Check the "Quote" in excel, it must be active.</div>
+        </div>
+      </div>
+      <div class="wRow" id="row10-1">
+        <div class="wCell pin"></div>
+        <div class="wCell">
+          <div class="message">Your proposal</div>
+        </div>
+      </div>
+      <div class="wRow" id="row10-2">
+        <div class="wCell "></div>
+        <div class="wCell">
+          <div class="message"><canvas id="propCanvas" class="canvasImg"></canvas></div>
+        </div>
+      </div>
+      <div class="wRow" id="row11-1">
+        <div class="wCell "></div>
+        <div class="wCell">
+          <div class="message">You can copy URL to share your link with your friends.</div>
+        </div>
+      </div>
+      <div class="wRow" id="row11-2">
+        <div class="wCell "></div>
+        <div class="wCell">
+          <div class="action"><button class="wButton" id="buttonUrl" onclick="selectEvent(this)">Copy URL📋</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wRow" id="step4-1">
+        <div class="wCell happy"></div>
+        <div class="wCell">
+          <div class="message">Otherwise, you can't do much more here</div>
+        </div>
+      </div>
+      <div class="wRow" id="step4-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply"><button class="wButton" id="step3Done" onclick="selectEvent(this)">Thank you Dimi</button>
+          </div>
+        </div>
+      </div>
+      <div class="wRow" id="row12-1">
+        <div class="wCell avatar"></div>
+        <div class="wCell">
+          <div class="message">Thank you! See you next time!</div>
+        </div>
+      </div>
+      <div class="wRow" id="row12-2">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="reply">❤️</div>
+        </div>
       </div>
     </div>
-    <div id="channel" style="position:relative">
-      <p id="channel-header" class="paragraph1" style="display: block">This is your optical channel physical
-        implementation</p>
-      <img class="channel-image" id="channel-layer1" />
-      <img class="channel-image" id="channel-layer2" />
-      <img class="channel-image" id="channel-layer3" />
-      <img class="channel-image" id="channel-layer4" />
-      <img class="channel-image" id="channel-layer5" />
-      <img class="channel-image" id="channel-layer6" />
-    </div>
+  </section>
 
-    <div class="input container" style="display:none">
-      <input type="text" id="rackA" value="Rack A">
-      <input type="text" id="rackB" value="Rack B">
-      <input type="text" id="lengthPE" placeholder="Length" value="20">
-      <input type="text" id="lengthPL" placeholder="Length" value="20">
-      <input type="radio" id="fibertypeMM" name="fibertypes" value="option1" checked>
-      <label for="option1">Multimode OM4 </label>
-      <input type="radio" id="fibertypeSM" name="fibertypes" value="option2">
-      <label for="option2">Singlemode</label>
-    </div>
-    <div class="link-picture">
 
-    </div>
-  </div>
-  <script src='script.js'></script>
+
+
+  <script src="helpers.js"></script>
+  <script src="images.js"></script>
+  <script src="script.js"></script>
   <!-- GDPR -->
   <!-- <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/6937eb0223e9a0037110d23c11588747.js"></script> -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
