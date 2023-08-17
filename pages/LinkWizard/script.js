@@ -85,8 +85,8 @@ var jsonData = {
   patchA: undefined, //pc1
   patchB: undefined, //pc2
   vocabulary: {
-    lengthsSMmtplong: [5, 7, 10, 12, 15, 17, 20, 20, 22, 25, 27, 30, 32, 35, 37, 40, 42, 45, 47, 50, 60, 70, 80, 90, 100],
-    lengthsMMmtplong: [5, 7, 10, 12, 15, 17, 20, 20, 22, 25, 27, 30, 32, 35, 37, 40, 42, 45, 47, 50],
+    lengthsSMmtplong: [5, 7, 10, 12, 15, 17, 20, 22, 25, 27, 30, 32, 35, 37, 40, 42, 45, 47, 50, 60, 70, 80, 90, 100],
+    lengthsMMmtplong: [5, 7, 10, 12, 15, 17, 20, 22, 25, 27, 30, 32, 35, 37, 40, 42, 45, 47, 50],
     lengthsSMmtpshort: [1, 2, 3, 4, 5],
     lengthsMMmtpshort: [1, 2, 3, 4, 5],
     lengthsMMpat: [1, 2, 3, 3.5, 4, 5, 7, 10, 12, 15, 17, 20, 25, 30],
@@ -490,6 +490,10 @@ function selectEvent(tag) {
       addParagraph(undefined, "choice", true)
       formLogic();
       hideAllTags("table");
+      removeChildTags("buttonsPL")
+      removeChildTags("buttonsPE")
+      removeChildTags("buttonsDC")
+      //clean lengths buttons
       unhideTag(intro);
       break;
     case "start":
@@ -651,7 +655,8 @@ function selectEvent(tag) {
 }
 
 function selectLength(tag) {
-  var keyValuesPairs = tag.split('=');
+  var keyValuesPairs;
+  if(tag.id!==undefined){keyValuesPairs = tag.id.split('=');}
   switch (true) {
     //first three to build button tags depending on selection
     case (jsonData.linktype === "DC00" && tag === ""):
@@ -675,7 +680,7 @@ function selectLength(tag) {
       unhideTag(transceivers)
       checkTransceivers();
       break;
-    case (keyValuesPairs[0] === "PE"):
+    case (keyValuesPairs[0] === "PE" && jsonData.linktype !== "CC00"):
       jsonData.lengthPE = keyValuesPairs[1]
       addParagraph("length " + jsonData.lengthPE + " m", "choice")
       hideTag(selectPE);
@@ -683,15 +688,15 @@ function selectLength(tag) {
       unhideTag(transceivers)
       checkTransceivers();
       break;
-    case (keyValuesPairs[0] === "PL" && jsonData.linktype !== "PL00"):
-      jsonData.lengthPL = keyValuesPairs[1]
-      addParagraph("length " + jsonData.lengthPL + " m", "choice")
-      hideTag(selectPL);
-      hideTag(lengths)
-      unhideTag(transceivers)
-      checkTransceivers();
-      break;
-    case (keyValuesPairs[0] === "PL" && jsonData.linktype === "PL00"):
+    // case (keyValuesPairs[0] === "PL" && jsonData.linktype !== "PL00"):
+    //   jsonData.lengthPL = keyValuesPairs[1]
+    //   addParagraph("length " + jsonData.lengthPL + " m", "choice")
+    //   hideTag(selectPL);
+    //   hideTag(lengths)
+    //   unhideTag(transceivers)
+    //   checkTransceivers();
+    //   break;
+    case ((keyValuesPairs[0] === "PL" && jsonData.linktype === "PL00") || (keyValuesPairs[0] === "PL" && jsonData.linktype === "IC00")):
       jsonData.lengthPL = keyValuesPairs[1]
       hideTag(lengths)
       hideTag(selectPL);
@@ -703,9 +708,10 @@ function selectLength(tag) {
       break;
     case (keyValuesPairs[0] === "PL" && jsonData.linktype === "CC00"):
       jsonData.lengthPL = keyValuesPairs[1];
-      addParagraph("length permanent link " + jsonData.lengthPE + " m", "choice")
+      addParagraph("length permanent link " + jsonData.lengthPL + " m", "choice")
       hideTag(selectPL);
       hideTag(lengths);
+      buildButtonsArray(jsonData.vocabulary["lengths" + jsonData.fibertype + "mtpshort"], "PE", "buttonsPE")
       unhideTag(selectPE);
       break;
     case (keyValuesPairs[0] === "PE" && jsonData.linktype === "CC00"):
