@@ -1,6 +1,6 @@
 
-var imagesPath = "../images/";
-var errorImagepath = "../images/error.png"
+var imagesPath = "images/";
+var errorImagepath = "images/error.png"
 var images = [
   "001-PL00-LC_LC-Du_Du-00_00.png",
   "001-PL00-MT_LC-Pa_Du-00_00.png",
