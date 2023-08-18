@@ -493,6 +493,7 @@ function selectEvent(tag) {
       removeChildTags("buttonsPL")
       removeChildTags("buttonsPE")
       removeChildTags("buttonsDC")
+      removeChildTags("transceiverButtons")
       //clean lengths buttons
       unhideTag(intro);
       break;
