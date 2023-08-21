@@ -25,7 +25,7 @@ function removeOptions(id) {
 //hides the html tag
 function hideTag(htmlTag) {
   htmlTag.forEach(function (element) {
-    
+
     if (element !== null && element !== undefined) {
       var div = document.getElementById(element)
       div.style.opacity = "0";
@@ -36,14 +36,14 @@ function hideTag(htmlTag) {
   })
 }
 
-var delayMessage=100;//use this to adjust delay between message apearance.
+var delayMessage = 100;//use this to adjust delay between message apearance.
 //unhides the html tag, need to be array
 function unhideTag(htmlTag) {
-  htmlTag.forEach(function (element,index) {
-    var delay=index*delayMessage+delayMessage;
+  htmlTag.forEach(function (element, index) {
+    var delay = index * delayMessage + delayMessage;
     if (element !== null && element !== undefined) {
       var div = document.getElementById(element);
-      div.style.display = "grid";
+      div.style.display = "table-row";
       setTimeout(function () {
         div.style.opacity = "1"
       }, delay)
@@ -67,56 +67,69 @@ function addTransceiverButton(btnID, divID) {
   div.appendChild(btn);
 }
 
-function removeChildTags(divID){
+function removeChildTags(divID) {
   var div = document.getElementById(divID);
-while (div.firstChild) {
+  while (div.firstChild) {
     div.removeChild(div.firstChild);
-}
+  }
 }
 //adds text to the paragraph
 function addParagraph(prText, prID, clean) {
   var pr = document.getElementById(prID);
   if (clean !== true) {
-    var vocabularyData = jsonData.vocabulary[prText]
-    if (vocabularyData === undefined) { vocabularyData = prText }
-    pr.textContent = pr.textContent +" > "+ vocabularyData 
+    var vocabularyData = jsonData.vocabulary[prText];
+    if (vocabularyData === undefined) { vocabularyData = prText };
+    var text=pr.innerHTML + "<br>"+ " > " + vocabularyData ;
+    pr.innerHTML = text;
   } else {
-    pr.textContent = "Your selection: "
+    pr.textContent = "Your selection:"
   }
 
 }
 
 //copies URL to the clipboard - check if that works with IE10
 function copyTextToClipboard(text) {
-  navigator.clipboard.writeText(text)
+  try {
+    navigator.clipboard.writeText(text)
+  } catch (err) {
+    console.log("might be the browser doesn't support it")
+  }
+  try {
+    var textArea = document.createElement("textarea");
+    textArea.value = text;
+    textArea.style.position = "fixed";  // Prevent scrolling to bottom of page
+    textArea.style.top = 0;
+    textArea.style.left = 0;
+    textArea.style.width = "2em";  // Set a small width to ensure that the textarea is rendered offscreen
+    textArea.style.height = "2em";  // Set a small height to ensure that the textarea is rendered offscreen
+    textArea.style.padding = 0;
+    textArea.style.border = "none";
+    textArea.style.outline = "none";
+    textArea.style.boxShadow = "none";
+    textArea.style.background = "transparent";
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy")
+    document.body.removeChild(textArea);
+  } catch (err) {
+    console.log("second method also didn't work ",err)
+  }
+
 }
 //function that hides all wBlock
 function hideAllTags(tagId) {
   var parentTag = document.getElementById(tagId);
   var allDivs = parentTag.querySelectorAll(".wRow")
-  allDivs.forEach(function (div) {
-    div.style.display = "none"
-  })
+  for (let i = 0; i < allDivs.length; i++) {
+    allDivs[i].style.display = "none"
+  }
 }
 
-function popUpMessage(text, tag) {
-  var div = document.getElementById("popup");
-  var divMessage = document.getElementById(tag.id);
-  var rect = divMessage.getBoundingClientRect();
-  // console.log(rect.right)
-  div.innerText = text;
-  var x = rect.right;
-  var y = rect.top;
-  div.style.left = x + 10 + "px";
-  div.style.top = y + "px";
-  div.style.display = "inline-block";
-  div.style.position = "absolute";
-  div.style.backgroundColor = "whitesmoke";
-  div.style.fontFamily = "Mont, sans-serif";
-  div.style.fontSize = "1em"
+function popUpMessage() {
+  unhideTag(["popup"])
   setTimeout(function () {
-    div.style.display = "none"
-  }, 2000)
+    hideTag(["popup"])
+  }, 3000)
 }
 
 function buildButtonsArray(array, type, divID) {

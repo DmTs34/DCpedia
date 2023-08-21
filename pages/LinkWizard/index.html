@@ -17,8 +17,8 @@
 </head>
 
 <body>
-  <div id="fullscreenDiv" class="fullscreenDiv"><img id="fullscreenImg" class="fullscreenImg" /></div>
-  <div id="popup"></div>
+  <!-- <div id="fullscreenDiv" class="fullscreenDiv"><img id="fullscreenImg" class="fullscreenImg" /></div> -->
+  
   <section class="wizard" id="wizard">
     <div class="table" id="table">
       <!--preloader-->
@@ -48,7 +48,7 @@
       <div class="wRow" id="again">
         <div class="wCell pin"></div>
         <div class="wCell">
-          <div class="action"><button class="wButton" id="startAgain" onclick="selectEvent(this)">Again</button></div>
+          <div class="message action"><button class="wButton" id="startAgain" onclick="selectEvent(this)">Again</button></div>
         </div>
       </div>
       <div class="wRow" id="query">
@@ -98,7 +98,7 @@
       <div class="wRow" id="row1-7">
         <div class="wCell"></div>
         <div class="wCell">
-          <div class="reply"><select class="wButton" id="dropdownTopology" oninput="selectEvent(this)"></select></div>
+          <div class="reply"><select class="wButton" id="dropdownTopology" onchange="selectEvent(this)"></select></div>
         </div>
       </div>
       <div class="wRow" id="row2-1">
@@ -116,7 +116,7 @@
       <div class="wRow" id="row2-3">
         <div class="wCell"></div>
         <div class="wCell">
-          <div class="reply"><select class="wButton" id="dropdownLinktype" oninput="selectEvent(this)"></select></div>
+          <div class="reply"><select class="wButton" id="dropdownLinktype" onchange="selectEvent(this)"></select></div>
         </div>
       </div>
       <div class="wRow" id="row3-1">
@@ -128,7 +128,7 @@
       <div class="wRow" id="row3-2">
         <div class="wCell"></div>
         <div class="wCell">
-          <div class="reply"><select class="wButton" id="dropdownSides" oninput="selectEvent(this)"></select></div>
+          <div class="reply"><select class="wButton" id="dropdownSides" onchange="selectEvent(this)"></select></div>
         </div>
       </div>
       <div class="wRow" id="application0-1">
@@ -190,7 +190,7 @@
       <div class="wRow" id="row5-2">
         <div class="wCell"></div>
         <div class="wCell">
-          <div class="reply"><select class="wButton" id="dropdownPermanentlink" oninput="selectEvent(this)"></select>
+          <div class="reply"><select class="wButton" id="dropdownPermanentlink" onchange="selectEvent(this)"></select>
           </div>
         </div>
       </div>
@@ -203,7 +203,7 @@
       <div class="wRow" id="row6-2">
         <div class="wCell"></div>
         <div class="wCell">
-          <div class="reply"><select class="wButton" id="dropdownPortextension" oninput="selectEvent(this)"></select>
+          <div class="reply"><select class="wButton" id="dropdownPortextension" onchange="selectEvent(this)"></select>
           </div>
         </div>
       </div>
@@ -408,6 +408,12 @@
           <div class="message">Check the "Quote" in excel, it must be active.</div>
         </div>
       </div>
+      <div class="wRow" id="step3-4">
+        <div class="wCell"></div>
+        <div class="wCell">
+          <div class="message action"><button class="wButton" id="excelReady">Excel</button></div>
+        </div>
+      </div>
       <div class="wRow" id="row10-1">
         <div class="wCell pin"></div>
         <div class="wCell">
@@ -429,7 +435,14 @@
       <div class="wRow" id="row11-2">
         <div class="wCell "></div>
         <div class="wCell">
-          <div class="action"><button class="wButton" id="buttonUrl" onclick="selectEvent(this)">Copy URL📋</button>
+          <div class="message action"><button class="wButton" id="buttonUrl" onclick="selectEvent(this)">Copy URL📋</button>
+          </div>
+        </div>
+      </div>
+      <div class="wRow" id="popup">
+        <div class="wCell "></div>
+        <div class="wCell">
+          <div class="message">URL copied to the clipboard
           </div>
         </div>
       </div>

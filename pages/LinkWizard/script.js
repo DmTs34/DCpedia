@@ -70,6 +70,7 @@ var imgcounter = 0;
 var timeToReadMessage = 1500;
 var imagesPreloaded = [];
 var jsonData = {
+  excelReadyStatus:false,
   topology: undefined, //t
   linktype: undefined, //l
   sides: undefined, //s
@@ -183,7 +184,7 @@ var selectPL=["selectPL-1","selectPL-2","selectPL-3"];
 var selectPE=["selectPE-1","selectPE-2","selectPE-3"];
 var selectDC=["selectDC-1","selectDC-2","selectDC-3"];
 var transceivers=["row9-1","row9-2","row9-3","row9-4","row9-5","row9-6"];
-var step3=["step3-1","step3-2","step3-3"];
+var step3=["step3-1","step3-2","step3-3","step3-4"];
 var proposal=["row10-1","row10-2"];
 var url=["row11-1","row11-2"];
 var step4=["step4-1","step4-2"];
@@ -637,7 +638,7 @@ function selectEvent(tag) {
       break;
     case "buttonUrl": //button
       addDataToURL();
-      popUpMessage("URL copied to the clipboard", tag);
+      popUpMessage();
       break;
     default:
       console.log(tag.id)
