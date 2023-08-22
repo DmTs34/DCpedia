@@ -813,5 +813,6 @@ preloader(function () {
 });
 //initiate the form
 
-
-
+function excelReady() {
+  window.open('javascript:void(0)','_blank')
+}
