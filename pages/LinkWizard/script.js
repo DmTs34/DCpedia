@@ -70,7 +70,7 @@ var imgcounter = 0;
 var timeToReadMessage = 1500;
 var imagesPreloaded = [];
 var jsonData = {
-  excelReadyStatus:false,
+  excelReadyStatus: false,
   topology: undefined, //t
   linktype: undefined, //l
   sides: undefined, //s
@@ -166,29 +166,29 @@ var jsonData = {
     "tra-Pa_00_SM_002": "QSFP-DD 400G DR4"
   }
 };
-var intro=["row0-1", "row0-2", "row0-3"];
-var application=["row1-1", "row1-2", "row1-3", "row1-4", "row1-5", "row1-6", "row1-7"];
-var linktype=["row2-1","row2-2","row2-3"];
-var sideAtoB=["row3-1","row3-2"]
-var applicationImg=["application0-1","application0-2"];
-var step1=["step1-1","step1-2"]
-var fibertype=["row4-1","row4-2","row4-3","row4-4"];
-var permanentlink=["row5-1","row5-2"];
-var portextension=["row6-1","row6-2"];
-var step2=["step2-1","step2-2","step2-3","step2-4"];
-var channel1Img=["channel1-1","channel1-2"]
-var channel2Img=["channel2-1","channel2-2"]
-var racks=["row7-1","row7-2","row7-3","row7-4","row7-5"];
-var lengths=["row8-1"];
-var selectPL=["selectPL-1","selectPL-2","selectPL-3"];
-var selectPE=["selectPE-1","selectPE-2","selectPE-3"];
-var selectDC=["selectDC-1","selectDC-2","selectDC-3"];
-var transceivers=["row9-1","row9-2","row9-3","row9-4","row9-5","row9-6"];
-var step3=["step3-1","step3-2","step3-3","step3-4"];
-var proposal=["row10-1","row10-2"];
-var url=["row11-1","row11-2"];
-var step4=["step4-1","step4-2"];
-var result=["row12-1","row12-2"];
+var intro = ["row0-1", "row0-2", "row0-3"];
+var application = ["row1-1", "row1-2", "row1-3", "row1-4", "row1-5", "row1-6", "row1-7"];
+var linktype = ["row2-1", "row2-2", "row2-3"];
+var sideAtoB = ["row3-1", "row3-2"]
+var applicationImg = ["application0-1", "application0-2"];
+var step1 = ["step1-1", "step1-2"]
+var fibertype = ["row4-1", "row4-2", "row4-3", "row4-4"];
+var permanentlink = ["row5-1", "row5-2"];
+var portextension = ["row6-1", "row6-2"];
+var step2 = ["step2-1", "step2-2", "step2-3", "step2-4"];
+var channel1Img = ["channel1-1", "channel1-2"]
+var channel2Img = ["channel2-1", "channel2-2"]
+var racks = ["row7-1", "row7-2", "row7-3", "row7-4", "row7-5"];
+var lengths = ["row8-1"];
+var selectPL = ["selectPL-1", "selectPL-2", "selectPL-3"];
+var selectPE = ["selectPE-1", "selectPE-2", "selectPE-3"];
+var selectDC = ["selectDC-1", "selectDC-2", "selectDC-3"];
+var transceivers = ["row9-1", "row9-2", "row9-3", "row9-4", "row9-5", "row9-6"];
+var step3 = ["step3-1", "step3-2", "step3-3", "step3-4"];
+var proposal = ["row10-1", "row10-2"];
+var url = ["row11-1", "row11-2"];
+var step4 = ["step4-1", "step4-2"];
+var result = ["row12-1", "row12-2"];
 //topology and link type
 //there are 4 topologies and 5 link types
 function formLogic() {
@@ -454,7 +454,7 @@ function checkApplicationImage() {
   unhideTag(applicationImg);
 }
 function checkProposal() {
-  var canvas = document.getElementById("propCanvas");    
+  var canvas = document.getElementById("propCanvas");
   canvas.width = 1500;
   canvas.height = 800;
   var context = canvas.getContext("2d");
@@ -462,7 +462,7 @@ function checkProposal() {
   context.font = "30px Arial";
   context.fillStyle = "black";
   context.fillText("This is temporary. There will be image with the bill of materials", 50, 50);
- 
+
   addClickEventToCanvas(canvas)
   unhideTag(proposal)
 }
@@ -513,7 +513,7 @@ function selectEvent(tag) {
         unhideTag(sideAtoB)
       } else if
         (tag.value === "004") {
-          jsonData.linktype = "PE00";
+        jsonData.linktype = "PE00";
         hideTag(application);
         unhideTag(sideAtoB)
       } else {
@@ -658,7 +658,7 @@ function selectEvent(tag) {
 
 function selectLength(tag) {
   var keyValuesPairs;
-  if(tag.id!==undefined){keyValuesPairs = tag.id.split('=');}
+  if (tag.id !== undefined) { keyValuesPairs = tag.id.split('='); }
   switch (true) {
     //first three to build button tags depending on selection
     case (jsonData.linktype === "DC00" && tag === ""):
@@ -767,23 +767,32 @@ function readDatafromURL() {
   }
 }
 
-function createURL(){
+function createURL(web) {
+  if(web===undefined){web=true};
+  var sign1 = "?";
+  var sign2 = "&";
+  var sign3 = "=";
+  if (web === false) {
+    sign1 = ""
+    sign2 = "_"
+    sign3 = "="
+  }
   var newURL = "" +
-    "?t=" + jsonData.topology +
-    "&l=" + jsonData.linktype +
-    "&s=" + jsonData.sides +
-    "&ft=" + jsonData.fibertype +
-    "&pl=" + jsonData.permanentlink +
-    "&pe=" + jsonData.portextension +
-    "&r1=" + jsonData.rackA +
-    "&r2=" + jsonData.rackB +
-    "&lpl=" + jsonData.lengthPL +
-    "&lpe=" + jsonData.lengthPE +
-    "&ldc=" + jsonData.lengthDC +
-    "&tr=" + jsonData.transceiver +
-    "&pc1=" + jsonData.patchA +
-    "&pc2=" + jsonData.patchB
-    return encodeURI(newURL)
+    sign1 + "t" + sign3 + jsonData.topology +
+    sign2+"l" + sign3+ jsonData.linktype +
+    sign2+"s" + sign3+ jsonData.sides +
+    sign2+"ft" + sign3+ jsonData.fibertype +
+    sign2+"pl" + sign3+ jsonData.permanentlink +
+    sign2+"pe" + sign3+ jsonData.portextension +
+    sign2+"r1" + sign3+ jsonData.rackA +
+    sign2+"r2" + sign3+ jsonData.rackB +
+    sign2+"lpl" + sign3+ jsonData.lengthPL +
+    sign2+"lpe" + sign3+ jsonData.lengthPE +
+    sign2+"ldc" + sign3+ jsonData.lengthDC +
+    sign2+"tr" + sign3+ jsonData.transceiver +
+    sign2+"pc1" + sign3+ jsonData.patchA +
+    sign2+"pc2" + sign3+ jsonData.patchB
+  return encodeURI(newURL)
 }
 function addDataToURL() {
 
@@ -819,9 +828,9 @@ preloader(function () {
 
 function excelReady() {
   try {
-    window.open(window.location.href + createURL()+"&dev=Excel",'_self')
+    window.open("javascript:void('dev=Excel_" + createURL(false) + "')", '_self')
   }
-  catch(err){
+  catch (err) {
     console.log("Nothing happened")
   }
 }
