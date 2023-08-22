@@ -767,7 +767,7 @@ function readDatafromURL() {
   }
 }
 
-function addDataToURL() {
+function createURL(){
   var newURL = "" +
     "?t=" + jsonData.topology +
     "&l=" + jsonData.linktype +
@@ -783,8 +783,12 @@ function addDataToURL() {
     "&tr=" + jsonData.transceiver +
     "&pc1=" + jsonData.patchA +
     "&pc2=" + jsonData.patchB
+    return encodeURI(newURL)
+}
+function addDataToURL() {
+
   // window.history.pushState({ path: newURL }, "", newURL)
-  copyTextToClipboard(window.location.href + encodeURI(newURL));
+  copyTextToClipboard(window.location.href + createURL());
 }
 //function that preloads all images listed in the above array and other preloading
 function preloader(callback) {
@@ -814,5 +818,10 @@ preloader(function () {
 //initiate the form
 
 function excelReady() {
-  window.open('javascript:void(0)','_self')
+  try {
+    window.open(window.location.href + createURL()+"&dev=Excel",'_self')
+  }
+  catch(err){
+    console.log("Nothing happened")
+  }
 }
